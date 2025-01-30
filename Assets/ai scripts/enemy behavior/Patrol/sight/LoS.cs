@@ -43,7 +43,7 @@ public class LoS : MonoBehaviour
             if (ray.collider != null)
             {
                 hasLineOfSight = ray.collider.CompareTag("Friend");
-                if (ray.collider.CompareTag("obsticale"))
+                if (ray.collider.CompareTag("obstacle"))
                 {
                     
                 }
@@ -60,7 +60,7 @@ public class LoS : MonoBehaviour
                 {
                     hasLineOfSight = false;
                     Debug.DrawRay(transform.position, attached.transform.position - transform.position, Color.red);
-                    Debug.Log("ME 2");
+                    Debug.Log(transform.name);
                 }
 
             }
