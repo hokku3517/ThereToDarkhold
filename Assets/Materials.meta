@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Code/Scenes.meta
 guid: 195493ef0acdc76409e9f31bc47699a2
+=======
+guid: 616bd138d58a7b34d8f888be3925d3ea
+>>>>>>> origin/Finn:Assets/Materials.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
