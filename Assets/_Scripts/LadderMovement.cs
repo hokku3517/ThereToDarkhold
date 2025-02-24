@@ -14,11 +14,16 @@ public class LadderMovement : MonoBehaviour
 
     private bool isClimbing;
     [SerializeField] private Rigidbody2D rb;
+
+    public PlayerMovement playerMovementScript;
+
+    private bool _isDashing;
     
     
     // Update is called once per frame
     void Update()
     {
+        
         vertical = Input.GetAxis("Vertical");
 
         if (isLadder && Mathf.Abs(vertical) > 0)
@@ -29,15 +34,25 @@ public class LadderMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
+       
         if (isClimbing)
         {
             rb.gravityScale = 0f;
             rb.velocity = new Vector2(rb.velocity.x, vertical * speed);
         }
-        else
-        {
-            rb.gravityScale = 4f;
-        }
+        
+            _isDashing = playerMovementScript.isDashing;
+            if (_isDashing)
+            {
+                rb.gravityScale = 0f;
+            }
+            else
+            {
+                rb.gravityScale = 4f;
+            }
+
+           
+
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -55,6 +70,7 @@ public class LadderMovement : MonoBehaviour
         {
             isLadder = false;
             isClimbing = false;
+            rb.gravityScale = 4f;
         }
     }
 }
