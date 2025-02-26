@@ -8,6 +8,8 @@ TagManager:
   - Friend
   - Obsticale
   - obsticale
+  - OneWayPlatform
+  - Ladder
   layers:
   - Default
   - TransparentFX

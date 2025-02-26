@@ -30,7 +30,7 @@ public class PlayerMovement : MonoBehaviour
     private float jumpBufferCounter;
 
     private bool canDash = true;
-    private bool isDashing;
+    public bool isDashing;
     private float dashingPower = 24f;
     private float dashingTime = 0.25f;
     private float dashingCooldown = 0.3f;
@@ -119,7 +119,7 @@ public class PlayerMovement : MonoBehaviour
 
     private bool IsGrounded()
     {
-        return Physics2D.OverlapCircle(groundCheck.position, 1f, groundLayer);
+        return Physics2D.OverlapCircle(groundCheck.position, .75f, groundLayer);
     }
 
     private bool IsWalled()
@@ -198,7 +198,7 @@ public class PlayerMovement : MonoBehaviour
         tr.emitting = true;
         yield return new WaitForSeconds(dashingTime);
         tr.emitting = false;
-        rb.gravityScale = originalGravity;
+        rb.gravityScale = 4f;
         isDashing = false;
         yield return new WaitForSeconds(dashingCooldown);
         canDash = true;

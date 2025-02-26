@@ -39,7 +39,7 @@ public class LoS : MonoBehaviour
         float distanceToAttached = Vector2.Distance(transform.position, attached.transform.position);
         if (distanceToAttached <= aggroRange)
         {
-            RaycastHit2D ray = Physics2D.Raycast(transform.position, player.transform.position - transform.position);
+            RaycastHit2D ray = Physics2D.Raycast(transform.position, attached.transform.position - transform.position);
             if (ray.collider != null)
             {
                 hasLineOfSight = ray.collider.CompareTag("Friend");
