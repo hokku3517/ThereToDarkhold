@@ -9,8 +9,8 @@ public class PlayerMovement : MonoBehaviour
 {
 
     private float horizontal;
-    [SerializeField] private float speed = 8f;
-    [SerializeField] private float jumpingPower = 16f;
+    private float speed = 8f;
+    private float jumpingPower = 16f;
     private bool isFacingRight = true;
 
     private bool isWallSliding;
@@ -121,14 +121,6 @@ public class PlayerMovement : MonoBehaviour
     {
         return Physics2D.OverlapCircle(groundCheck.position, .75f, groundLayer);
     }
-
-    
-    // what if instead of william afton it was freaky william - finn
-   
-
-   
-
-    
 
     private bool IsWalled()
     {

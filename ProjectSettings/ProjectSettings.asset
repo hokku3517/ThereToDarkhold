@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 26
-  productGUID: c50dd3d14c609584a9ff92c9d3a77899
+  productGUID: 66d4c98413ea1254dadebb312cbf5f1b
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -153,8 +153,7 @@ PlayerSettings:
   resetResolutionOnWindowResize: 0
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
-  applicationIdentifier:
-    Standalone: com.DefaultCompany.ThereToDarkhold
+  applicationIdentifier: {}
   buildNumber:
     Standalone: 0
     VisionOS: 0
