@@ -4,11 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 26
-<<<<<<< HEAD
-  productGUID: 825ec66946e1c7a4f941b79981665ceb
-=======
-  productGUID: 66d4c98413ea1254dadebb312cbf5f1b
->>>>>>> origin/Finn
+  productGUID: c50dd3d14c609584a9ff92c9d3a77899
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -673,11 +669,7 @@ PlayerSettings:
   hmiLogStartupTiming: 0
   hmiCpuConfiguration: 
   apiCompatibilityLevel: 6
-<<<<<<< HEAD
   activeInputHandler: 0
-=======
-  activeInputHandler: 2
->>>>>>> origin/Finn
   windowsGamepadBackendHint: 0
   cloudProjectId: 
   framebufferDepthMemorylessMode: 0
