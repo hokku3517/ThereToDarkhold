@@ -54,13 +54,13 @@ public class LoS : MonoBehaviour
                 if (hasLineOfSight)
                 {
                     Debug.DrawRay(transform.position, attached.transform.position - transform.position, Color.green);
-                    Debug.Log("im working");
+                    //Debug.Log("im working");
                 }
                 else
                 {
                     hasLineOfSight = false;
                     Debug.DrawRay(transform.position, attached.transform.position - transform.position, Color.red);
-                    Debug.Log(transform.name);
+                    //Debug.Log(transform.name);
                 }
 
             }
