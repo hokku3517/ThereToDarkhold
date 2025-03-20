@@ -3,12 +3,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class LevelMove_Ref : MonoBehaviour
 {
     public int sceneBuldIndex;
 
-
+    
     private void OnTriggerEnter2D(Collider2D other)
     {
         print("Trigger Entered");
@@ -16,6 +17,7 @@ public class LevelMove_Ref : MonoBehaviour
         if (other.CompareTag("Friend")) 
         {
             print("Switching Scene to " + sceneBuldIndex);
+            
             SceneManager.LoadScene(sceneBuldIndex, LoadSceneMode.Single);
         }
     }
