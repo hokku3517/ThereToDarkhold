@@ -29,8 +29,7 @@ public class PlayerAttack : MonoBehaviour
         {
             if (elapsedTime >= attackCooldown)
             {
-                Debug.DrawLine(seeMe.transform.position, seeMe.attached.transform.position - seeMe.transform.position,
-                    Color.yellow);
+                Debug.DrawLine(seeMe.transform.position, seeMe.attached.transform.position - seeMe.transform.position, Color.yellow);
                 if (Input.GetKey(KeyCode.Mouse1))
                 {
                     Debug.Log(enemyAtm.health);
@@ -53,11 +52,11 @@ public class PlayerAttack : MonoBehaviour
                 
                 if (Input.GetKey(KeyCode.Z))
                 {
-                    Time.timeScale = .05;
+                    Time.timeScale = 0.05f;
                 }
                 else
                 {
-                    Time.timeScale = 1;
+                    Time.timeScale = 1f;
                 }
             }
         }
