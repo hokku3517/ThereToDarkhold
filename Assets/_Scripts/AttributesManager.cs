@@ -5,8 +5,8 @@ using UnityEngine;
 public class AttributesManager : MonoBehaviour
 {
     
-    public int damageAmount = 10;
-
+    public int autoAmount = 1;
+    public int heavyWindAmount = 20;
     public int health;
     
 
@@ -15,15 +15,22 @@ public class AttributesManager : MonoBehaviour
         health -= amount;
     }
 
-    public void DealDamage(GameObject target)
+    public void autoDamage(GameObject target)
     {
         var atm = target.GetComponent<AttributesManager>();
         if (atm != null)
         {
-           atm.TakeDamage(damageAmount);
+           atm.TakeDamage(autoAmount);
         }
     }
-    
+    public void HeavyDamage(GameObject target)
+    {
+        var atm = target.GetComponent<AttributesManager>();
+        if (atm != null)
+        {
+            atm.TakeDamage(heavyWindAmount);
+        }
+    }
     void Start()
     {
         
