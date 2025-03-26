@@ -14,7 +14,7 @@ public class LoS : MonoBehaviour
     [SerializeField] public GameObject player;
 
     private bool hasLineOfSight;
-    private float distanceToAttached;
+    public float distanceToAttached;
 
     [SerializeField] private float aggroRange;
 
