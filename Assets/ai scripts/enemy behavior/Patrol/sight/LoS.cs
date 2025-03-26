@@ -43,10 +43,7 @@ public class LoS : MonoBehaviour
             if (ray.collider != null)
             {
                 hasLineOfSight = ray.collider.CompareTag("Friend");
-                if (ray.collider.CompareTag("obstacle"))
-                {
-                    
-                }
+                
                     
                 
                 
