@@ -7,11 +7,15 @@ public class PlayerAttack : MonoBehaviour
     public AttributesManager playerAtm;
 
     public AttributesManager enemyAtm;
-
+    
+    public PlayerMovement stop;
+    
     public LoS seeMe;
     // Start is called before the first frame update
-    private float attackCooldown = 2;
+    private float attackCooldown = 2f;
     private float elapsedTime = 0f;
+    private float chargeTime = 1f;
+    
     void Start()
     {
         
@@ -25,16 +29,47 @@ public class PlayerAttack : MonoBehaviour
         {
             if (elapsedTime >= attackCooldown)
             {
-                Debug.DrawLine(seeMe.transform.position, seeMe.attached.transform.position - seeMe.transform.position,
-                    Color.yellow);
+                Debug.DrawLine(seeMe.transform.position, seeMe.attached.transform.position - seeMe.transform.position, Color.yellow);
                 if (Input.GetKey(KeyCode.Mouse1))
                 {
                     Debug.Log(enemyAtm.health);
-                    playerAtm.DealDamage(enemyAtm.gameObject);
+                    playerAtm.autoDamage(enemyAtm.gameObject);
                     elapsedTime = 0.0f;
 
                 }
+
+                if (Input.GetKey(KeyCode.Mouse2))
+                {
+                    Debug.Log(enemyAtm.health);
+                    charge();
+                    playerAtm.HeavyDamage(enemyAtm.gameObject);
+                    elapsedTime = 0.0f;
+                }
+                else
+                {
+                    stopDefault();
+                }
+                
+                if (Input.GetKey(KeyCode.Z))
+                {
+                    Time.timeScale = 0.05f;
+                }
+                else
+                {
+                    Time.timeScale = 1f;
+                }
             }
         }
+    }
+
+    void stopDefault()
+    {
+        stop.speed = 10;
+        stop.jumpingPower = 20;
+    }
+    void charge()
+    {
+        stop.speed = 0;
+        stop.jumpingPower = 0;
     }
 }
