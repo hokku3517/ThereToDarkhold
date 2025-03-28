@@ -12,7 +12,7 @@ public class EnemyAttackUniversal : MonoBehaviour
     void Start()
     {
         
-        Debug.Log("I need an area");
+        //Debug.Log("I need an area");
         Area = Instantiate(AttackAreaObject);
         
     }

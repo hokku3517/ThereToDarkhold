@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/TutorialLVL.unity
+    guid: 021f40e4813b6aa42ac39b41260d7a35
+  - enabled: 1
+    path: Assets/Scenes/Corbin's map design.unity
+    guid: 7ec0e7de78a69d5449ea3288e24eba77
   m_configObjects: {}

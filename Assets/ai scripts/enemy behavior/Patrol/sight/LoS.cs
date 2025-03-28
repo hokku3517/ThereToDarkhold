@@ -14,7 +14,7 @@ public class LoS : MonoBehaviour
     [SerializeField] public GameObject player;
 
     private bool hasLineOfSight;
-    private float distanceToAttached;
+    public float distanceToAttached;
 
     [SerializeField] private float aggroRange;
 
@@ -43,10 +43,7 @@ public class LoS : MonoBehaviour
             if (ray.collider != null)
             {
                 hasLineOfSight = ray.collider.CompareTag("Friend");
-                if (ray.collider.CompareTag("obstacle"))
-                {
-                    
-                }
+                
                     
                 
                 
@@ -54,13 +51,13 @@ public class LoS : MonoBehaviour
                 if (hasLineOfSight)
                 {
                     Debug.DrawRay(transform.position, attached.transform.position - transform.position, Color.green);
-                    Debug.Log("im working");
+                    //Debug.Log("im working");
                 }
                 else
                 {
                     hasLineOfSight = false;
                     Debug.DrawRay(transform.position, attached.transform.position - transform.position, Color.red);
-                    Debug.Log(transform.name);
+                    //Debug.Log(transform.name);
                 }
 
             }
