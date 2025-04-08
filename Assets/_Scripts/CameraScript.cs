@@ -10,10 +10,7 @@ public class CameraScript : MonoBehaviour
     
 
     // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    
 
     // Update is called once per frame
     void Update()
@@ -21,6 +18,12 @@ public class CameraScript : MonoBehaviour
         Vector3 cameraV = new Vector3(camra.transform.position.x,camra.transform.position.y,-10);
         Vector3 playerV = new Vector3(plyare.transform.position.x,plyare.transform.position.y,-10);
         
-        transform.position = Vector3.Lerp(cameraV,playerV,1f);
+        if (plyare.transform.position.x - camra.transform.position.x >= 7 || plyare.transform.position.x - camra.transform.position.x <= -7 ){
+            transform.position = Vector3.MoveTowards(cameraV,playerV,30f * Time.deltaTime);
+        } else if (plyare.transform.position.x - camra.transform.position.x >= 3 || plyare.transform.position.x - camra.transform.position.x <= -3 ){
+            transform.position = Vector3.MoveTowards(cameraV,playerV,10f * Time.deltaTime);
+        } else {
+            transform.position = Vector3.MoveTowards(cameraV,playerV,5f * Time.deltaTime);
+        }
     }
 }
