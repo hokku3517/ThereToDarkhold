@@ -8,7 +8,7 @@ public class PlayerCombat : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.LeftClick))
+        if (Input.GetKeyDown(KeyCode.Mouse0))
         {
             Attack();
         }
@@ -23,4 +23,3 @@ public class PlayerCombat : MonoBehaviour
         // damage
     }
     }
-}
