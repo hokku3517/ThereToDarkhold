@@ -16,6 +16,7 @@ public class LadderMovement : MonoBehaviour
     [SerializeField] private Rigidbody2D rb;
 
     public PlayerMovement playerMovementScript;
+    
 
     private bool _isDashing;
     
@@ -34,6 +35,7 @@ public class LadderMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
+        
        
         if (isClimbing)
         {
@@ -41,15 +43,15 @@ public class LadderMovement : MonoBehaviour
             rb.velocity = new Vector2(rb.velocity.x, vertical * speed);
         }
         
-            _isDashing = playerMovementScript.isDashing;
-            if (_isDashing)
-            {
-                rb.gravityScale = 0f;
-            }
-            else
-            {
-                rb.gravityScale = 4f;
-            }
+        _isDashing = playerMovementScript.isDashing;
+        if (_isDashing)
+        {
+            rb.gravityScale = 0f;
+        }
+        else
+        {
+            rb.gravityScale = 4f;
+        }
 
            
 
