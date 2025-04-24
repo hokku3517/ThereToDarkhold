@@ -88,7 +88,7 @@ public class PlayerMovement : MonoBehaviour
             coyoteTimeCounter = 0f;
         }
 
-        if (Input.GetKeyDown(KeyCode.LeftShift) && canDash)
+        if (Input.GetKeyDown(KeyCode.LeftShift) || Input.GetButtonDown("Fire2") && canDash)
         {
             StartCoroutine(Dash());
         }
