@@ -52,12 +52,18 @@ public class AttributesManager : MonoBehaviour
         } else if (health > 25 && health <= 50){
             //2 heartts delete heart 3
             Destroy(heart3);
+            Destroy(heart4);
         } else if (health > 1 && health <= 25){
             //1 heartts delete heart 2
             Destroy(heart2);
+            Destroy(heart3);
+            Destroy(heart4);
         } else if (health < 1){
             //0 hearts delete heart 1
             Destroy(heart1);
+            Destroy(heart2);
+            Destroy(heart3);
+            Destroy(heart4);
         }
     }
 }
