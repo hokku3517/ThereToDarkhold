@@ -73,6 +73,7 @@ public class AttributesManager : MonoBehaviour
             Destroy(heart2);
             Destroy(heart3);
             Destroy(heart4);
+            
         }
     }
 }
