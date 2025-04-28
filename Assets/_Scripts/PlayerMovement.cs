@@ -29,7 +29,7 @@ public class PlayerMovement : MonoBehaviour
     private float jumpBufferTime = 0.2f;
     private float jumpBufferCounter;
 
-    private bool canDash = true;
+    [SerializeField] public bool canDash = true;
     public bool isDashing;
     private float dashingPower = 24f;
     private float dashingTime = 0.25f;
@@ -88,7 +88,7 @@ public class PlayerMovement : MonoBehaviour
             coyoteTimeCounter = 0f;
         }
 
-        if (Input.GetKeyDown(KeyCode.LeftShift) || Input.GetButtonDown("Fire2") && canDash)
+        if (Input.GetKeyDown(KeyCode.LeftShift) && canDash || Input.GetButtonDown("Fire2") && canDash)
         {
             StartCoroutine(Dash());
         }
