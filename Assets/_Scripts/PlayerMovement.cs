@@ -92,11 +92,7 @@ public class PlayerMovement : MonoBehaviour
             coyoteTimeCounter = 0f;
         }
 
-<<<<<<< HEAD
-        if (Input.GetKeyDown(KeyCode.LeftShift) && canDash || Input.GetButtonDown("Fire2") && canDash)
-=======
         if (Input.GetKeyDown(KeyCode.LeftShift) && canDash && numberOfDashes > 0|| Input.GetButtonDown("Fire2") && canDash && numberOfDashes > 0)
->>>>>>> Finn
         {
             StartCoroutine(Dash());
         }
