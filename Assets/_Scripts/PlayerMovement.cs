@@ -33,7 +33,11 @@ public class PlayerMovement : MonoBehaviour
     public bool isDashing;
     private float dashingPower = 24f;
     private float dashingTime = 0.25f;
-    private float dashingCooldown = 0.3f;
+    public float dashingCooldown = 0.1f;
+    public int maxNumberOfDashes = 4;
+    public int numberOfDashes = 5;
+    public float dashRecharge = 1f;
+    private bool isRechargingDash = false;
 
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Transform groundCheck;
@@ -88,7 +92,7 @@ public class PlayerMovement : MonoBehaviour
             coyoteTimeCounter = 0f;
         }
 
-        if (Input.GetKeyDown(KeyCode.LeftShift) && canDash|| Input.GetButtonDown("Fire2") && canDash)
+        if (Input.GetKeyDown(KeyCode.LeftShift) && canDash && numberOfDashes > 0|| Input.GetButtonDown("Fire2") && canDash && numberOfDashes > 0)
         {
             StartCoroutine(Dash());
         }
@@ -198,6 +202,7 @@ public class PlayerMovement : MonoBehaviour
 
     private IEnumerator Dash()
     {
+        numberOfDashes -= 1;
         canDash = false;
         isDashing = true;
         float originalGravity = rb.gravityScale;
@@ -210,6 +215,25 @@ public class PlayerMovement : MonoBehaviour
         isDashing = false;
         yield return new WaitForSeconds(dashingCooldown);
         canDash = true;
+
+        if (!isRechargingDash && numberOfDashes < maxNumberOfDashes)
+        {
+            StartCoroutine(RechargeDash());
+        }
+        
+    }
+
+    private IEnumerator RechargeDash()
+    {
+        isRechargingDash = true;
+
+        while (numberOfDashes < maxNumberOfDashes && !isDashing)
+        {
+            yield return new WaitForSeconds(dashRecharge);
+            numberOfDashes += 1;
+        }
+
+        isRechargingDash = false;
     }
 
 }
