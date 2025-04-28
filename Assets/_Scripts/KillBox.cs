@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class Killbox : MonoBehaviour
 {
+    public int damage = 25;
     
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -21,7 +22,7 @@ public class Killbox : MonoBehaviour
             AttributesManager attributesManager = other.GetComponent<AttributesManager>();
             if (attributesManager != null)
             {
-                attributesManager.health -= 25;
+                attributesManager.health -= damage;
             }
             else
             {
