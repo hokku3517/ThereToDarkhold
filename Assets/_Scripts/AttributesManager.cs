@@ -46,7 +46,7 @@ public class AttributesManager : MonoBehaviour
     }
     void Start()
     {
-        spriteRenderer = GetComponent<SpriteRenderer>();
+        
     }
 
    
