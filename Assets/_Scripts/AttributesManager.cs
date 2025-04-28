@@ -9,14 +9,23 @@ public class AttributesManager : MonoBehaviour
     public int heavyWindAmount = 20;
     public int health = 100;
 
+    
+
     [SerializeField] GameObject heart1;
     [SerializeField] GameObject heart2;
     [SerializeField] GameObject heart3;
     [SerializeField] GameObject heart4;
 
+    PlayerMovement pm = new PlayerMovement();
+
     public void TakeDamage(int amount)
     {
-        health -= amount;
+        if (!pm.canDash || pm.isDashing){
+            
+        } else if (pm.canDash || !pm.isDashing){
+            
+            health -= amount;
+        }
     }
 
     public void autoDamage(GameObject target)
@@ -37,7 +46,7 @@ public class AttributesManager : MonoBehaviour
     }
     void Start()
     {
-        
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
    
