@@ -6,7 +6,7 @@ public class Killbox : MonoBehaviour
     
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Friend") && gameObject.name == "Kill Box")
+        if (other.CompareTag("Friend") && gameObject.name.Contains("Kill Box"))
         {
             AttributesManager attributesManager = other.GetComponent<AttributesManager>();
             if (attributesManager != null)

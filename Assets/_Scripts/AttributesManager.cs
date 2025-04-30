@@ -33,20 +33,20 @@ public class AttributesManager : MonoBehaviour
 
     public void HandleCollision(Collision2D collision)
     {
-        Debug.Log("Freaky 3");
+        
         if (collision.gameObject.CompareTag("Enemy"))
         {
             if (pm.isDashing)
             {
                 Destroy(collision.gameObject);
-                Debug.Log("freaky");
+                
             }
             else
             {
                 while (!pm.isDashing)
                 {
                    health -= autoAmount;
-                   Debug.Log("Freaky 2"); 
+                   
                 }
             }
         }
