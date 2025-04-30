@@ -28,8 +28,13 @@ Transform:
   m_GameObject: {fileID: 8122987249163648890}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+<<<<<<< HEAD:Assets/Prefabs/Freaky Spike 1.prefab
   m_LocalPosition: {x: -564.4756, y: 55.597, z: -1.5735211}
   m_LocalScale: {x: 1.9231524, y: -1.1859246, z: 1}
+=======
+  m_LocalPosition: {x: 98.05, y: 37.24, z: -1.5735211}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+>>>>>>> Finn:Assets/Prefabs/Freaky Spike.prefab
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}

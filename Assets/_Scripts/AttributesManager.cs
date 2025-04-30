@@ -1,6 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Rendering.Universal;
+using UnityEngine.SceneManagement;
 
 public class AttributesManager : MonoBehaviour
 {
@@ -16,7 +19,7 @@ public class AttributesManager : MonoBehaviour
     [SerializeField] GameObject heart3;
     [SerializeField] GameObject heart4;
 
-    PlayerMovement pm = new PlayerMovement();
+    private PlayerMovement pm;
 
     public void TakeDamage(int amount)
     {
@@ -24,7 +27,28 @@ public class AttributesManager : MonoBehaviour
             
         } else if (pm.canDash || !pm.isDashing){
             
-            health -= amount;
+            
+        }
+    }
+
+    public void HandleCollision(Collision2D collision)
+    {
+        Debug.Log("Freaky 3");
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            if (pm.isDashing)
+            {
+                Destroy(collision.gameObject);
+                Debug.Log("freaky");
+            }
+            else
+            {
+                while (!pm.isDashing)
+                {
+                   health -= autoAmount;
+                   Debug.Log("Freaky 2"); 
+                }
+            }
         }
     }
 
@@ -36,6 +60,7 @@ public class AttributesManager : MonoBehaviour
            atm.TakeDamage(autoAmount);
         }
     }
+
     public void HeavyDamage(GameObject target)
     {
         var atm = target.GetComponent<AttributesManager>();
@@ -44,9 +69,14 @@ public class AttributesManager : MonoBehaviour
             atm.TakeDamage(heavyWindAmount);
         }
     }
+   
     void Start()
     {
+<<<<<<< HEAD
         
+=======
+        pm = GetComponent<PlayerMovement>();
+>>>>>>> Finn
     }
 
    
@@ -73,6 +103,12 @@ public class AttributesManager : MonoBehaviour
             Destroy(heart2);
             Destroy(heart3);
             Destroy(heart4);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
+        
+    }
+    
+    void OnCollisionEnter2D(Collision2D collision) {
+        HandleCollision(collision);
     }
 }

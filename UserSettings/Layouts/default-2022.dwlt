@@ -124,7 +124,11 @@ MonoBehaviour:
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 69
+=======
+  controlID: 113
+>>>>>>> Finn
 =======
   controlID: 113
 >>>>>>> Finn
@@ -153,7 +157,11 @@ MonoBehaviour:
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 70
+=======
+  controlID: 56
+>>>>>>> Finn
 =======
   controlID: 56
 >>>>>>> Finn
@@ -177,6 +185,7 @@ MonoBehaviour:
     x: 0
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1281
     height: 366
   m_MinSize: {x: 200, y: 50}
@@ -184,12 +193,17 @@ MonoBehaviour:
   vertical: 0
   controlID: 71
 =======
+=======
+>>>>>>> Finn
     width: 1460
     height: 571
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
   controlID: 57
+<<<<<<< HEAD
+>>>>>>> Finn
+=======
 >>>>>>> Finn
 --- !u!114 &8
 MonoBehaviour:
@@ -209,12 +223,15 @@ MonoBehaviour:
     x: 0
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 355
     height: 366
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
 =======
+=======
+>>>>>>> Finn
     width: 233
     height: 571
   m_MinSize: {x: 201, y: 221}
@@ -243,9 +260,12 @@ MonoBehaviour:
     x: 233
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 926
     height: 366
 =======
+=======
+>>>>>>> Finn
     width: 1227
     height: 571
 >>>>>>> Finn
@@ -274,9 +294,15 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 366
     width: 1281
     height: 335
+=======
+    y: 571
+    width: 1460
+    height: 376
+>>>>>>> Finn
 =======
     y: 571
     width: 1460
@@ -334,6 +360,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: InspectorWindow
@@ -425,6 +452,8 @@ MonoBehaviour:
   m_EditorHideFlags: 1
 =======
 >>>>>>> Finn
+=======
+>>>>>>> Finn
   m_Script: {fileID: 12061, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -439,8 +468,13 @@ MonoBehaviour:
     x: 0
     y: 73
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 354
     height: 345
+=======
+    width: 232
+    height: 550
+>>>>>>> Finn
 =======
     width: 232
     height: 550
@@ -458,6 +492,7 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
 <<<<<<< HEAD
+<<<<<<< HEAD
       scrollPos: {x: 0, y: 1852}
       m_SelectedIDs: 
       m_LastClickedID: 0
@@ -467,6 +502,12 @@ MonoBehaviour:
       m_SelectedIDs: 40faffff
       m_LastClickedID: -1472
       m_ExpandedIDs: 0cfbffff
+>>>>>>> Finn
+=======
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 48710000
+      m_LastClickedID: 29000
+      m_ExpandedIDs: 62faffff66faffff0cfbffff
 >>>>>>> Finn
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -514,8 +555,13 @@ MonoBehaviour:
     x: 233
     y: 73
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 924
     height: 345
+=======
+    width: 1225
+    height: 550
+>>>>>>> Finn
 =======
     width: 1225
     height: 550
@@ -534,8 +580,8 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: -166, y: -26}
+      snapOffset: {x: -166, y: -26}
+      snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 3
       id: Tool Settings
       index: 0
@@ -879,6 +925,7 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_Position:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: -535.53186, y: 84.86744, z: -0.3167405}
     speed: 2
     m_Value: {x: -535.6837, y: 85.008575, z: -0.33024055}
@@ -886,6 +933,11 @@ MonoBehaviour:
     m_Target: {x: 85.976395, y: 39.781494, z: -0.38877785}
     speed: 2
     m_Value: {x: 85.976395, y: 39.781494, z: -0.38877785}
+>>>>>>> Finn
+=======
+    m_Target: {x: 14.609853, y: 4.095228, z: -0.45551535}
+    speed: 2
+    m_Value: {x: 15.566116, y: 4.4106274, z: -0.4379335}
 >>>>>>> Finn
   m_RenderMode: 0
   m_CameraMode:
@@ -937,6 +989,7 @@ MonoBehaviour:
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: 6.589407
     speed: 2
     m_Value: 6.899903
@@ -944,6 +997,11 @@ MonoBehaviour:
     m_Target: 16.43236
     speed: 2
     m_Value: 16.43236
+>>>>>>> Finn
+=======
+    m_Target: 40.82891
+    speed: 2
+    m_Value: 39.07073
 >>>>>>> Finn
   m_Ortho:
     m_Target: 1
@@ -1089,9 +1147,15 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 439
     width: 1280
     height: 314
+=======
+    y: 644
+    width: 1459
+    height: 355
+>>>>>>> Finn
 =======
     y: 644
     width: 1459
@@ -1118,7 +1182,7 @@ MonoBehaviour:
     m_SkipHidden: 1
     m_SearchArea: 1
     m_Folders:
-    - Assets/_Scripts
+    - Assets/Prefabs
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -1126,22 +1190,28 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/_Scripts
+  - Assets/Prefabs
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\fp19361\OneDrive - Wasatch School District\Documents\ThereToDarkhold
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
 <<<<<<< HEAD
+<<<<<<< HEAD
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 92750000
     m_LastClickedID: 30098
     m_ExpandedIDs: 00000000b8730000ba730000bc730000be730000c0730000c2730000c4730000c6730000c8730000ca730000cc73000000ca9a3b
 =======
+=======
+>>>>>>> Finn
     scrollPos: {x: 0, y: 53}
-    m_SelectedIDs: 9c740000
-    m_LastClickedID: 29852
+    m_SelectedIDs: a2740000
+    m_LastClickedID: 29858
     m_ExpandedIDs: 00000000727400007474000076740000787400007a7400007c7400007e74000000ca9a3b
+<<<<<<< HEAD
+>>>>>>> Finn
+=======
 >>>>>>> Finn
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1171,7 +1241,11 @@ MonoBehaviour:
     m_SelectedIDs: 
     m_LastClickedID: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000b8730000ba730000bc730000be730000c0730000c2730000c4730000c6730000c8730000ca730000cc730000
+=======
+    m_ExpandedIDs: 00000000727400007474000076740000787400007a7400007c7400007e740000
+>>>>>>> Finn
 =======
     m_ExpandedIDs: 00000000727400007474000076740000787400007a7400007c7400007e740000
 >>>>>>> Finn
@@ -1201,7 +1275,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: 
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1324,6 +1398,7 @@ MonoBehaviour:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1424,5 +1499,7 @@ MonoBehaviour:
   m_LowResolutionForAspectRatios: 01000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
+=======
+>>>>>>> Finn
 =======
 >>>>>>> Finn

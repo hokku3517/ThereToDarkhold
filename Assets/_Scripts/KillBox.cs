@@ -17,7 +17,7 @@ public class Killbox : MonoBehaviour
             {
                 Debug.LogWarning("AttributesManager not found on player!");
             }
-        } else if (other.CompareTag("Friend") && gameObject.name == "Freaky Spike")
+        } else if (other.CompareTag("Friend") && gameObject.name.Contains("Freaky Spike"))
         {
             AttributesManager attributesManager = other.GetComponent<AttributesManager>();
             if (attributesManager != null)
