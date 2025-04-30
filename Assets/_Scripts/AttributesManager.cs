@@ -43,11 +43,7 @@ public class AttributesManager : MonoBehaviour
             }
             else
             {
-                while (!pm.isDashing)
-                {
-                   health -= autoAmount;
-                   
-                }
+                health -= autoAmount;
             }
         }
     }
