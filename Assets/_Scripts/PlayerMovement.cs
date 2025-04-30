@@ -60,6 +60,7 @@ public class PlayerMovement : MonoBehaviour
         {
             return;
         }
+        /*
         if (Input.GetButtonDown("Jump")){
             Process p = new Process();
             p.StartInfo.UseShellExecute = true;
@@ -68,6 +69,7 @@ public class PlayerMovement : MonoBehaviour
             Application.Quit();
             p.Start();
         }
+        */
         
         horizontal = Input.GetAxisRaw("Horizontal");
 
