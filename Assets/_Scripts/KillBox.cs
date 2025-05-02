@@ -28,6 +28,17 @@ public class Killbox : MonoBehaviour
             {
                 Debug.LogWarning("AttributesManager not found on player!");
             }
-        }
+        } else if (other.CompareTag("Friend") && gameObject.name.Contains("Freaky Sphere"))
+        {
+            AttributesManager attributesManager = other.GetComponent<AttributesManager>();
+            if (attributesManager != null)
+            {
+                attributesManager.health -= damage;
+            }
+            else
+            {
+                Debug.LogWarning("AttributesManager not found on player!");
+            }
+        }    
     }
 }

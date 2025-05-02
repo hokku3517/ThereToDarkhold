@@ -20,6 +20,8 @@ public class AttributesManager : MonoBehaviour
     [SerializeField] GameObject heart4;
 
     private PlayerMovement pm;
+    private SpriteRenderer SpriteRenderer;
+    
 
     public void TakeDamage(int amount)
     {
@@ -43,13 +45,21 @@ public class AttributesManager : MonoBehaviour
             }
             else
             {
-                while (!pm.isDashing)
                 {
-                   health -= autoAmount;
                    
                 }
+                health -= autoAmount;
+                StartCoroutine(FlashRed());
             }
         }
+    }
+
+    public IEnumerator FlashRed()
+    {
+        Debug.Log("Should Flash");
+        SpriteRenderer.color= Color.red;
+        yield return new WaitForSeconds(.1f);
+        SpriteRenderer.color = Color.white;
     }
 
     public void autoDamage(GameObject target)
@@ -73,6 +83,7 @@ public class AttributesManager : MonoBehaviour
     void Start()
     {
         pm = GetComponent<PlayerMovement>();
+        SpriteRenderer = GetComponent<SpriteRenderer>();
     }
 
    
