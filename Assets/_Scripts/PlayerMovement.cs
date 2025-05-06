@@ -38,7 +38,7 @@ public class PlayerMovement : MonoBehaviour
     private float dashingPower = 24f;
     private float dashingTime = 0.25f;
     public float dashingCooldown = 0.1f;
-    public int maxNumberOfDashes = 4;
+    public int maxNumberOfDashes = 5;
     public int numberOfDashes = 5;
     public float dashRecharge = 1f;
     private bool isRechargingDash = false;
