@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,6 +13,7 @@ public class AttributesManager : MonoBehaviour
     public int autoAmount = 1;
     public int heavyWindAmount = 20;
     public int health = 100;
+    public int coinNumber;
 
     
 
@@ -98,8 +100,9 @@ public class AttributesManager : MonoBehaviour
         pm = GetComponent<PlayerMovement>();
         SpriteRenderer = GetComponent<SpriteRenderer>();
     }
+    
 
-   
+
     void Update()
     {
 
@@ -132,6 +135,10 @@ public class AttributesManager : MonoBehaviour
         HandleCollision(collision);
     }
 
-    
+    public void IncreaseCoins()
+    {
+        Debug.Log("Should go up in coinage");
+        coinNumber++;
+    }
     
 }
