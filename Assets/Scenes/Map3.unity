@@ -3412,6 +3412,10 @@ PrefabInstance:
       propertyPath: plyare
       value: 
       objectReference: {fileID: 2042620101}
+    - target: {fileID: 3945533709269272274, guid: 966eaa9745b48c34d97c333ff0d3a452, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 2042620101}
     - target: {fileID: 4641449486402524094, guid: 966eaa9745b48c34d97c333ff0d3a452, type: 3}
       propertyPath: Player
       value: 
