@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Rendering.Universal;
@@ -21,6 +22,7 @@ public class AttributesManager : MonoBehaviour
 
     private PlayerMovement pm;
     private SpriteRenderer SpriteRenderer;
+    public int damageCounter = 0;
     
 
     public void TakeDamage(int amount)
@@ -40,8 +42,19 @@ public class AttributesManager : MonoBehaviour
         {
             if (pm.isDashing)
             {
-                Destroy(collision.gameObject);
+                if (damageCounter < 3 && collision.gameObject.name.Contains("Sonic"))
+                {
+                    damageCounter++;
+                } else if (!collision.gameObject.name.Contains("Sonic"))
+                {
+                    Destroy(collision.gameObject);
+                } else if (damageCounter >= 3 && collision.gameObject.name.Contains("Sonic"))
+                {
+                    Destroy(collision.gameObject);
+                }
                 
+                
+
             }
             else
             {
@@ -118,4 +131,7 @@ public class AttributesManager : MonoBehaviour
     void OnCollisionEnter2D(Collision2D collision) {
         HandleCollision(collision);
     }
+
+    
+    
 }
