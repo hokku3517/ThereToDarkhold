@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Rendering.Universal;
@@ -25,6 +26,8 @@ public class AttributesManager : MonoBehaviour
     private PlayerMovement pm;
     private SpriteRenderer SpriteRenderer;
     public int damageCounter = 0;
+
+    [SerializeField] TextMeshProUGUI coinCounter;
     
 
     public void TakeDamage(int amount)
@@ -139,6 +142,7 @@ public class AttributesManager : MonoBehaviour
     {
         Debug.Log("Should go up in coinage");
         coinNumber++;
+        coinCounter.text = "" + coinNumber;
     }
     
 }

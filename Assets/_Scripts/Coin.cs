@@ -7,7 +7,7 @@ using UnityEngine;
 public class Coin : MonoBehaviour
 {
     public AttributesManager Name;
-    
+
     // Start is called before the first frame update
     
 
@@ -19,8 +19,16 @@ public class Coin : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        Destroy(gameObject);
-        Debug.Log("Getting collided");
-        Name.IncreaseCoins();
+        if (collision.gameObject.name.Contains("Player"))
+        {
+            Destroy(gameObject);
+                    Debug.Log("Getting collided");
+                    Name.IncreaseCoins();
+        }
+        else
+        {
+            return;
+        }
+        
     }
 }
