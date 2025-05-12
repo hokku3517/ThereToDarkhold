@@ -3832,6 +3832,14 @@ PrefabInstance:
       propertyPath: plyare
       value: 
       objectReference: {fileID: 2042620101}
+    - target: {fileID: 3945533709269272274, guid: 966eaa9745b48c34d97c333ff0d3a452, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 2042620101}
+    - target: {fileID: 4641449486402524094, guid: 966eaa9745b48c34d97c333ff0d3a452, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 2042620101}
     - target: {fileID: 5114723099319379359, guid: 966eaa9745b48c34d97c333ff0d3a452, type: 3}
       propertyPath: m_Name
       value: Main Camera
@@ -5281,11 +5289,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8106161305814151030, guid: 281dcdecec3ba2b4a9fb6cf1a39286ee, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -60.1
+      value: -75.6
       objectReference: {fileID: 0}
     - target: {fileID: 8106161305814151030, guid: 281dcdecec3ba2b4a9fb6cf1a39286ee, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -134.5
+      value: -201.8
       objectReference: {fileID: 0}
     - target: {fileID: 8106161305814151030, guid: 281dcdecec3ba2b4a9fb6cf1a39286ee, type: 3}
       propertyPath: m_LocalPosition.z
