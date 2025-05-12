@@ -2027,6 +2027,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: Area
+      value: 
+      objectReference: {fileID: 269803019}
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: AttackAreaObject
+      value: 
+      objectReference: {fileID: 269803019}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: attached
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: aggroRange
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1038828676537168843, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 1038828676537168843, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: attached
+      value: 
+      objectReference: {fileID: 1246736508366327566}
     - target: {fileID: 6089253390847957996, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
       propertyPath: m_LocalPosition.x
       value: -390.4
@@ -2067,34 +2099,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: Area
-      value: 
-      objectReference: {fileID: 269803019}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: Player
-      value: 
-      objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: AttackAreaObject
-      value: 
-      objectReference: {fileID: 269803019}
     - target: {fileID: 6346202704804359852, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
       propertyPath: m_Name
       value: FreakySquare (8)
       objectReference: {fileID: 0}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: player
+    - target: {fileID: 7618877880779888382, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: Player
       value: 
       objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: attached
-      value: 
-      objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: aggroRange
-      value: 10
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3108,6 +3120,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: Area
+      value: 
+      objectReference: {fileID: 269803019}
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: AttackAreaObject
+      value: 
+      objectReference: {fileID: 269803019}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: attached
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: aggroRange
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1038828676537168843, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 1038828676537168843, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: attached
+      value: 
+      objectReference: {fileID: 1246736508366327566}
     - target: {fileID: 6089253390847957996, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
       propertyPath: m_LocalPosition.x
       value: -367.3
@@ -3148,34 +3192,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: Area
-      value: 
-      objectReference: {fileID: 269803019}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: Player
-      value: 
-      objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: AttackAreaObject
-      value: 
-      objectReference: {fileID: 269803019}
     - target: {fileID: 6346202704804359852, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
       propertyPath: m_Name
       value: FreakySquare (4)
       objectReference: {fileID: 0}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: player
+    - target: {fileID: 7618877880779888382, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: Player
       value: 
       objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: attached
-      value: 
-      objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: aggroRange
-      value: 10
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3474,6 +3498,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: Area
+      value: 
+      objectReference: {fileID: 269803019}
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: AttackAreaObject
+      value: 
+      objectReference: {fileID: 269803019}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: attached
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: aggroRange
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1038828676537168843, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 1038828676537168843, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: attached
+      value: 
+      objectReference: {fileID: 1246736508366327566}
     - target: {fileID: 6089253390847957996, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
       propertyPath: m_LocalPosition.x
       value: -422.4
@@ -3514,34 +3570,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: Area
-      value: 
-      objectReference: {fileID: 269803019}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: Player
-      value: 
-      objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: AttackAreaObject
-      value: 
-      objectReference: {fileID: 269803019}
     - target: {fileID: 6346202704804359852, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
       propertyPath: m_Name
       value: FreakySquare (18)
       objectReference: {fileID: 0}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: player
+    - target: {fileID: 7618877880779888382, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: Player
       value: 
       objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: attached
-      value: 
-      objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: aggroRange
-      value: 10
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4341,6 +4377,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: Area
+      value: 
+      objectReference: {fileID: 269803019}
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: AttackAreaObject
+      value: 
+      objectReference: {fileID: 269803019}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: attached
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: aggroRange
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1038828676537168843, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 1038828676537168843, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: attached
+      value: 
+      objectReference: {fileID: 1246736508366327566}
     - target: {fileID: 6089253390847957996, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
       propertyPath: m_LocalPosition.x
       value: -390.9
@@ -4381,34 +4449,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: Area
-      value: 
-      objectReference: {fileID: 269803019}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: Player
-      value: 
-      objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: AttackAreaObject
-      value: 
-      objectReference: {fileID: 269803019}
     - target: {fileID: 6346202704804359852, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
       propertyPath: m_Name
       value: FreakySquare (26)
       objectReference: {fileID: 0}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: player
+    - target: {fileID: 7618877880779888382, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: Player
       value: 
       objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: attached
-      value: 
-      objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: aggroRange
-      value: 10
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5409,6 +5457,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: Area
+      value: 
+      objectReference: {fileID: 269803019}
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: AttackAreaObject
+      value: 
+      objectReference: {fileID: 269803019}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: attached
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: aggroRange
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1038828676537168843, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 1038828676537168843, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: attached
+      value: 
+      objectReference: {fileID: 1246736508366327566}
     - target: {fileID: 6089253390847957996, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
       propertyPath: m_LocalPosition.x
       value: -256.9
@@ -5449,34 +5529,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: Area
-      value: 
-      objectReference: {fileID: 269803019}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: Player
-      value: 
-      objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: AttackAreaObject
-      value: 
-      objectReference: {fileID: 269803019}
     - target: {fileID: 6346202704804359852, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
       propertyPath: m_Name
       value: FreakySquare (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: player
+    - target: {fileID: 7618877880779888382, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: Player
       value: 
       objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: attached
-      value: 
-      objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: aggroRange
-      value: 10
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7540,6 +7600,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: Area
+      value: 
+      objectReference: {fileID: 269803019}
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: AttackAreaObject
+      value: 
+      objectReference: {fileID: 269803019}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: attached
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: aggroRange
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1038828676537168843, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 1038828676537168843, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: attached
+      value: 
+      objectReference: {fileID: 1246736508366327566}
     - target: {fileID: 6089253390847957996, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
       propertyPath: m_LocalPosition.x
       value: -431.2
@@ -7580,34 +7672,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: Area
-      value: 
-      objectReference: {fileID: 269803019}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: Player
-      value: 
-      objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: AttackAreaObject
-      value: 
-      objectReference: {fileID: 269803019}
     - target: {fileID: 6346202704804359852, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
       propertyPath: m_Name
       value: FreakySquare (22)
       objectReference: {fileID: 0}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: player
+    - target: {fileID: 7618877880779888382, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: Player
       value: 
       objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: attached
-      value: 
-      objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: aggroRange
-      value: 10
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8452,6 +8524,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: Area
+      value: 
+      objectReference: {fileID: 269803019}
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: AttackAreaObject
+      value: 
+      objectReference: {fileID: 269803019}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: attached
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: aggroRange
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1038828676537168843, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 1038828676537168843, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: attached
+      value: 
+      objectReference: {fileID: 1246736508366327566}
     - target: {fileID: 6089253390847957996, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
       propertyPath: m_LocalPosition.x
       value: -309
@@ -8492,34 +8596,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: Area
-      value: 
-      objectReference: {fileID: 269803019}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: Player
-      value: 
-      objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: AttackAreaObject
-      value: 
-      objectReference: {fileID: 269803019}
     - target: {fileID: 6346202704804359852, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
       propertyPath: m_Name
       value: FreakySquare (13)
       objectReference: {fileID: 0}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: player
+    - target: {fileID: 7618877880779888382, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: Player
       value: 
       objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: attached
-      value: 
-      objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: aggroRange
-      value: 10
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13285,6 +13369,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: Area
+      value: 
+      objectReference: {fileID: 269803019}
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: AttackAreaObject
+      value: 
+      objectReference: {fileID: 269803019}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: attached
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: aggroRange
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1038828676537168843, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 1038828676537168843, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: attached
+      value: 
+      objectReference: {fileID: 1246736508366327566}
     - target: {fileID: 6089253390847957996, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
       propertyPath: m_LocalPosition.x
       value: -381.4
@@ -13325,34 +13441,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: Area
-      value: 
-      objectReference: {fileID: 269803019}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: Player
-      value: 
-      objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: AttackAreaObject
-      value: 
-      objectReference: {fileID: 269803019}
     - target: {fileID: 6346202704804359852, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
       propertyPath: m_Name
       value: FreakySquare (15)
       objectReference: {fileID: 0}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: player
+    - target: {fileID: 7618877880779888382, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: Player
       value: 
       objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: attached
-      value: 
-      objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: aggroRange
-      value: 10
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14286,6 +14382,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: Area
+      value: 
+      objectReference: {fileID: 269803019}
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: AttackAreaObject
+      value: 
+      objectReference: {fileID: 269803019}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: attached
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: aggroRange
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1038828676537168843, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 1038828676537168843, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: attached
+      value: 
+      objectReference: {fileID: 1246736508366327566}
     - target: {fileID: 6089253390847957996, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
       propertyPath: m_LocalPosition.x
       value: -458.47
@@ -14326,34 +14454,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: Area
-      value: 
-      objectReference: {fileID: 269803019}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: Player
-      value: 
-      objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: AttackAreaObject
-      value: 
-      objectReference: {fileID: 269803019}
     - target: {fileID: 6346202704804359852, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
       propertyPath: m_Name
       value: FreakySquare (17)
       objectReference: {fileID: 0}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: player
+    - target: {fileID: 7618877880779888382, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: Player
       value: 
       objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: attached
-      value: 
-      objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: aggroRange
-      value: 10
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16808,6 +16916,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: Area
+      value: 
+      objectReference: {fileID: 269803019}
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: AttackAreaObject
+      value: 
+      objectReference: {fileID: 269803019}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: attached
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: aggroRange
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1038828676537168843, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 1038828676537168843, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: attached
+      value: 
+      objectReference: {fileID: 1246736508366327566}
     - target: {fileID: 6089253390847957996, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
       propertyPath: m_LocalPosition.x
       value: -344.6
@@ -16848,34 +16988,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: Area
-      value: 
-      objectReference: {fileID: 269803019}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: Player
-      value: 
-      objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: AttackAreaObject
-      value: 
-      objectReference: {fileID: 269803019}
     - target: {fileID: 6346202704804359852, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
       propertyPath: m_Name
       value: FreakySquare (10)
       objectReference: {fileID: 0}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: player
+    - target: {fileID: 7618877880779888382, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: Player
       value: 
       objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: attached
-      value: 
-      objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: aggroRange
-      value: 10
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17886,6 +18006,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: Area
+      value: 
+      objectReference: {fileID: 269803019}
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: AttackAreaObject
+      value: 
+      objectReference: {fileID: 269803019}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: attached
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: aggroRange
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1038828676537168843, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 1038828676537168843, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: attached
+      value: 
+      objectReference: {fileID: 1246736508366327566}
     - target: {fileID: 6089253390847957996, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
       propertyPath: m_LocalPosition.x
       value: -359.4
@@ -17926,34 +18078,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: Area
-      value: 
-      objectReference: {fileID: 269803019}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: Player
-      value: 
-      objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: AttackAreaObject
-      value: 
-      objectReference: {fileID: 269803019}
     - target: {fileID: 6346202704804359852, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
       propertyPath: m_Name
       value: FreakySquare (11)
       objectReference: {fileID: 0}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: player
+    - target: {fileID: 7618877880779888382, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: Player
       value: 
       objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: attached
-      value: 
-      objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: aggroRange
-      value: 10
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18411,6 +18543,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: Area
+      value: 
+      objectReference: {fileID: 269803019}
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: AttackAreaObject
+      value: 
+      objectReference: {fileID: 269803019}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: attached
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: aggroRange
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1038828676537168843, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 1038828676537168843, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: attached
+      value: 
+      objectReference: {fileID: 1246736508366327566}
     - target: {fileID: 6089253390847957996, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
       propertyPath: m_LocalPosition.x
       value: -262.4
@@ -18451,34 +18615,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: Area
-      value: 
-      objectReference: {fileID: 269803019}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: Player
-      value: 
-      objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: AttackAreaObject
-      value: 
-      objectReference: {fileID: 269803019}
     - target: {fileID: 6346202704804359852, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
       propertyPath: m_Name
       value: FreakySquare (25)
       objectReference: {fileID: 0}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: player
+    - target: {fileID: 7618877880779888382, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: Player
       value: 
       objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: attached
-      value: 
-      objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: aggroRange
-      value: 10
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18897,6 +19041,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: Area
+      value: 
+      objectReference: {fileID: 269803019}
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: AttackAreaObject
+      value: 
+      objectReference: {fileID: 269803019}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: attached
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: aggroRange
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1038828676537168843, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 1038828676537168843, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: attached
+      value: 
+      objectReference: {fileID: 1246736508366327566}
     - target: {fileID: 6089253390847957996, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
       propertyPath: m_LocalPosition.x
       value: -382.8
@@ -18937,34 +19113,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: Area
-      value: 
-      objectReference: {fileID: 269803019}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: Player
-      value: 
-      objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: AttackAreaObject
-      value: 
-      objectReference: {fileID: 269803019}
     - target: {fileID: 6346202704804359852, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
       propertyPath: m_Name
       value: FreakySquare (20)
       objectReference: {fileID: 0}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: player
+    - target: {fileID: 7618877880779888382, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: Player
       value: 
       objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: attached
-      value: 
-      objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: aggroRange
-      value: 10
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19437,6 +19593,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: Area
+      value: 
+      objectReference: {fileID: 269803019}
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: AttackAreaObject
+      value: 
+      objectReference: {fileID: 269803019}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: attached
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: aggroRange
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1038828676537168843, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 1038828676537168843, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: attached
+      value: 
+      objectReference: {fileID: 1246736508366327566}
     - target: {fileID: 6089253390847957996, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
       propertyPath: m_LocalPosition.x
       value: -486.9
@@ -19477,34 +19665,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: Area
-      value: 
-      objectReference: {fileID: 269803019}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: Player
-      value: 
-      objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: AttackAreaObject
-      value: 
-      objectReference: {fileID: 269803019}
     - target: {fileID: 6346202704804359852, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
       propertyPath: m_Name
       value: FreakySquare (27)
       objectReference: {fileID: 0}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: player
+    - target: {fileID: 7618877880779888382, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: Player
       value: 
       objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: attached
-      value: 
-      objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: aggroRange
-      value: 10
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21076,6 +21244,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: Area
+      value: 
+      objectReference: {fileID: 269803019}
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: AttackAreaObject
+      value: 
+      objectReference: {fileID: 269803019}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: attached
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: aggroRange
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1038828676537168843, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 1038828676537168843, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: attached
+      value: 
+      objectReference: {fileID: 1246736508366327566}
     - target: {fileID: 6089253390847957996, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
       propertyPath: m_LocalPosition.x
       value: -467.2
@@ -21116,34 +21316,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: Area
-      value: 
-      objectReference: {fileID: 269803019}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: Player
-      value: 
-      objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: AttackAreaObject
-      value: 
-      objectReference: {fileID: 269803019}
     - target: {fileID: 6346202704804359852, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
       propertyPath: m_Name
       value: FreakySquare (9)
       objectReference: {fileID: 0}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: player
+    - target: {fileID: 7618877880779888382, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: Player
       value: 
       objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: attached
-      value: 
-      objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: aggroRange
-      value: 10
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -22150,6 +22330,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: Area
+      value: 
+      objectReference: {fileID: 269803019}
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: AttackAreaObject
+      value: 
+      objectReference: {fileID: 269803019}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: attached
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: aggroRange
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1038828676537168843, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 1038828676537168843, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: attached
+      value: 
+      objectReference: {fileID: 1246736508366327566}
     - target: {fileID: 6089253390847957996, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
       propertyPath: m_LocalPosition.x
       value: -531.6373
@@ -22190,34 +22402,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: Area
-      value: 
-      objectReference: {fileID: 269803019}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: Player
-      value: 
-      objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: AttackAreaObject
-      value: 
-      objectReference: {fileID: 269803019}
     - target: {fileID: 6346202704804359852, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
       propertyPath: m_Name
       value: FreakySquare (14)
       objectReference: {fileID: 0}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: player
+    - target: {fileID: 7618877880779888382, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: Player
       value: 
       objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: attached
-      value: 
-      objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: aggroRange
-      value: 10
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -24784,6 +24976,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: Area
+      value: 
+      objectReference: {fileID: 269803019}
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: AttackAreaObject
+      value: 
+      objectReference: {fileID: 269803019}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: attached
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: aggroRange
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1038828676537168843, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 1038828676537168843, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: attached
+      value: 
+      objectReference: {fileID: 1246736508366327566}
     - target: {fileID: 6089253390847957996, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
       propertyPath: m_LocalPosition.x
       value: -291.2
@@ -24824,34 +25048,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: Area
-      value: 
-      objectReference: {fileID: 269803019}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: Player
-      value: 
-      objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: AttackAreaObject
-      value: 
-      objectReference: {fileID: 269803019}
     - target: {fileID: 6346202704804359852, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
       propertyPath: m_Name
       value: FreakySquare (3)
       objectReference: {fileID: 0}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: player
+    - target: {fileID: 7618877880779888382, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: Player
       value: 
       objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: attached
-      value: 
-      objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: aggroRange
-      value: 10
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -27926,6 +28130,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: Area
+      value: 
+      objectReference: {fileID: 269803019}
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: AttackAreaObject
+      value: 
+      objectReference: {fileID: 269803019}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: attached
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: aggroRange
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1038828676537168843, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 1038828676537168843, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: attached
+      value: 
+      objectReference: {fileID: 1246736508366327566}
     - target: {fileID: 6089253390847957996, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
       propertyPath: m_LocalPosition.x
       value: -281.8
@@ -27966,34 +28202,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: Area
-      value: 
-      objectReference: {fileID: 269803019}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: Player
-      value: 
-      objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: AttackAreaObject
-      value: 
-      objectReference: {fileID: 269803019}
     - target: {fileID: 6346202704804359852, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
       propertyPath: m_Name
       value: FreakySquare (5)
       objectReference: {fileID: 0}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: player
+    - target: {fileID: 7618877880779888382, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: Player
       value: 
       objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: attached
-      value: 
-      objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: aggroRange
-      value: 10
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -28140,6 +28356,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: Area
+      value: 
+      objectReference: {fileID: 269803019}
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: AttackAreaObject
+      value: 
+      objectReference: {fileID: 269803019}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: attached
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: aggroRange
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1038828676537168843, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 1038828676537168843, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: attached
+      value: 
+      objectReference: {fileID: 1246736508366327566}
     - target: {fileID: 6089253390847957996, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
       propertyPath: m_LocalPosition.x
       value: -404.1
@@ -28180,34 +28428,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: Area
-      value: 
-      objectReference: {fileID: 269803019}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: Player
-      value: 
-      objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: AttackAreaObject
-      value: 
-      objectReference: {fileID: 269803019}
     - target: {fileID: 6346202704804359852, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
       propertyPath: m_Name
       value: FreakySquare (7)
       objectReference: {fileID: 0}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: player
+    - target: {fileID: 7618877880779888382, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: Player
       value: 
       objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: attached
-      value: 
-      objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: aggroRange
-      value: 10
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -32009,6 +32237,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: Area
+      value: 
+      objectReference: {fileID: 269803019}
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: AttackAreaObject
+      value: 
+      objectReference: {fileID: 269803019}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: attached
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: aggroRange
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1038828676537168843, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 1038828676537168843, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: attached
+      value: 
+      objectReference: {fileID: 1246736508366327566}
     - target: {fileID: 6089253390847957996, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
       propertyPath: m_LocalPosition.x
       value: -258.3
@@ -32049,34 +32309,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: Area
-      value: 
-      objectReference: {fileID: 269803019}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: Player
-      value: 
-      objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: AttackAreaObject
-      value: 
-      objectReference: {fileID: 269803019}
     - target: {fileID: 6346202704804359852, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
       propertyPath: m_Name
       value: FreakySquare (19)
       objectReference: {fileID: 0}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: player
+    - target: {fileID: 7618877880779888382, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: Player
       value: 
       objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: attached
-      value: 
-      objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: aggroRange
-      value: 10
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -34694,6 +34934,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: Area
+      value: 
+      objectReference: {fileID: 269803019}
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: AttackAreaObject
+      value: 
+      objectReference: {fileID: 269803019}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: attached
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: aggroRange
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1038828676537168843, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 1038828676537168843, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: attached
+      value: 
+      objectReference: {fileID: 1246736508366327566}
     - target: {fileID: 6089253390847957996, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
       propertyPath: m_LocalPosition.x
       value: -431.6
@@ -34734,34 +35006,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: Area
-      value: 
-      objectReference: {fileID: 269803019}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: Player
-      value: 
-      objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: AttackAreaObject
-      value: 
-      objectReference: {fileID: 269803019}
     - target: {fileID: 6346202704804359852, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
       propertyPath: m_Name
       value: FreakySquare (24)
       objectReference: {fileID: 0}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: player
+    - target: {fileID: 7618877880779888382, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: Player
       value: 
       objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: attached
-      value: 
-      objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: aggroRange
-      value: 10
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -38263,6 +38515,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: Area
+      value: 
+      objectReference: {fileID: 269803019}
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: AttackAreaObject
+      value: 
+      objectReference: {fileID: 269803019}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: attached
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: aggroRange
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1038828676537168843, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 1038828676537168843, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: attached
+      value: 
+      objectReference: {fileID: 1246736508366327566}
     - target: {fileID: 6089253390847957996, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
       propertyPath: m_LocalPosition.x
       value: -300.7
@@ -38303,34 +38587,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: Area
-      value: 
-      objectReference: {fileID: 269803019}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: Player
-      value: 
-      objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: AttackAreaObject
-      value: 
-      objectReference: {fileID: 269803019}
     - target: {fileID: 6346202704804359852, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
       propertyPath: m_Name
       value: FreakySquare (28)
       objectReference: {fileID: 0}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: player
+    - target: {fileID: 7618877880779888382, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: Player
       value: 
       objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: attached
-      value: 
-      objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: aggroRange
-      value: 10
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -38963,6 +39227,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: Area
+      value: 
+      objectReference: {fileID: 269803019}
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: AttackAreaObject
+      value: 
+      objectReference: {fileID: 269803019}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: attached
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: aggroRange
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1038828676537168843, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 1038828676537168843, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: attached
+      value: 
+      objectReference: {fileID: 1246736508366327566}
     - target: {fileID: 6089253390847957996, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
       propertyPath: m_LocalPosition.x
       value: -411.6
@@ -39003,34 +39299,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: Area
-      value: 
-      objectReference: {fileID: 269803019}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: Player
-      value: 
-      objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: AttackAreaObject
-      value: 
-      objectReference: {fileID: 269803019}
     - target: {fileID: 6346202704804359852, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
       propertyPath: m_Name
       value: FreakySquare (21)
       objectReference: {fileID: 0}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: player
+    - target: {fileID: 7618877880779888382, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: Player
       value: 
       objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: attached
-      value: 
-      objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: aggroRange
-      value: 10
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -39044,6 +39320,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: Area
+      value: 
+      objectReference: {fileID: 269803019}
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: AttackAreaObject
+      value: 
+      objectReference: {fileID: 269803019}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: attached
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: aggroRange
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1038828676537168843, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 1038828676537168843, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: attached
+      value: 
+      objectReference: {fileID: 1246736508366327566}
     - target: {fileID: 6089253390847957996, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
       propertyPath: m_LocalPosition.x
       value: -339.7
@@ -39084,34 +39392,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: Area
-      value: 
-      objectReference: {fileID: 269803019}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: Player
-      value: 
-      objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: AttackAreaObject
-      value: 
-      objectReference: {fileID: 269803019}
     - target: {fileID: 6346202704804359852, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
       propertyPath: m_Name
       value: FreakySquare (29)
       objectReference: {fileID: 0}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: player
+    - target: {fileID: 7618877880779888382, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: Player
       value: 
       objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: attached
-      value: 
-      objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: aggroRange
-      value: 10
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -40905,6 +41193,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: Area
+      value: 
+      objectReference: {fileID: 269803019}
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: AttackAreaObject
+      value: 
+      objectReference: {fileID: 269803019}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: attached
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: aggroRange
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1038828676537168843, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 1038828676537168843, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: attached
+      value: 
+      objectReference: {fileID: 1246736508366327566}
     - target: {fileID: 6089253390847957996, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
       propertyPath: m_LocalPosition.x
       value: -479.2
@@ -40945,34 +41265,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: Area
-      value: 
-      objectReference: {fileID: 269803019}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: Player
-      value: 
-      objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: AttackAreaObject
-      value: 
-      objectReference: {fileID: 269803019}
     - target: {fileID: 6346202704804359852, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
       propertyPath: m_Name
       value: FreakySquare (6)
       objectReference: {fileID: 0}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: player
+    - target: {fileID: 7618877880779888382, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: Player
       value: 
       objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: attached
-      value: 
-      objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: aggroRange
-      value: 10
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -46615,6 +46915,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: Area
+      value: 
+      objectReference: {fileID: 269803019}
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: AttackAreaObject
+      value: 
+      objectReference: {fileID: 269803019}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: attached
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: aggroRange
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1038828676537168843, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 1038828676537168843, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: attached
+      value: 
+      objectReference: {fileID: 1246736508366327566}
     - target: {fileID: 6089253390847957996, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
       propertyPath: m_LocalPosition.x
       value: -466.8
@@ -46655,34 +46987,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: Area
-      value: 
-      objectReference: {fileID: 269803019}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: Player
-      value: 
-      objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: AttackAreaObject
-      value: 
-      objectReference: {fileID: 269803019}
     - target: {fileID: 6346202704804359852, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
       propertyPath: m_Name
       value: FreakySquare (16)
       objectReference: {fileID: 0}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: player
+    - target: {fileID: 7618877880779888382, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: Player
       value: 
       objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: attached
-      value: 
-      objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: aggroRange
-      value: 10
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -47482,6 +47794,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: Area
+      value: 
+      objectReference: {fileID: 269803019}
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: AttackAreaObject
+      value: 
+      objectReference: {fileID: 269803019}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: attached
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: aggroRange
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1038828676537168843, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 1038828676537168843, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: attached
+      value: 
+      objectReference: {fileID: 1246736508366327566}
     - target: {fileID: 6089253390847957996, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
       propertyPath: m_LocalPosition.x
       value: -347.2
@@ -47522,34 +47866,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: Area
-      value: 
-      objectReference: {fileID: 269803019}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: Player
-      value: 
-      objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: AttackAreaObject
-      value: 
-      objectReference: {fileID: 269803019}
     - target: {fileID: 6346202704804359852, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
       propertyPath: m_Name
       value: FreakySquare (12)
       objectReference: {fileID: 0}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: player
+    - target: {fileID: 7618877880779888382, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: Player
       value: 
       objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: attached
-      value: 
-      objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: aggroRange
-      value: 10
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -48613,6 +48937,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: Area
+      value: 
+      objectReference: {fileID: 269803019}
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: AttackAreaObject
+      value: 
+      objectReference: {fileID: 269803019}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: attached
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: aggroRange
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1038828676537168843, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 1038828676537168843, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: attached
+      value: 
+      objectReference: {fileID: 1246736508366327566}
     - target: {fileID: 6089253390847957996, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
       propertyPath: m_LocalPosition.x
       value: -421.8
@@ -48653,34 +49009,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: Area
-      value: 
-      objectReference: {fileID: 269803019}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: Player
-      value: 
-      objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: AttackAreaObject
-      value: 
-      objectReference: {fileID: 269803019}
     - target: {fileID: 6346202704804359852, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
       propertyPath: m_Name
       value: FreakySquare (23)
       objectReference: {fileID: 0}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: player
+    - target: {fileID: 7618877880779888382, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: Player
       value: 
       objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: attached
-      value: 
-      objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: aggroRange
-      value: 10
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -48997,6 +49333,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: Area
+      value: 
+      objectReference: {fileID: 269803019}
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: AttackAreaObject
+      value: 
+      objectReference: {fileID: 269803019}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: attached
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: aggroRange
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1038828676537168843, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 1038828676537168843, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: attached
+      value: 
+      objectReference: {fileID: 1246736508366327566}
     - target: {fileID: 6089253390847957996, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
       propertyPath: m_LocalPosition.x
       value: -298.8
@@ -49037,34 +49405,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: Area
-      value: 
-      objectReference: {fileID: 269803019}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: Player
-      value: 
-      objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: AttackAreaObject
-      value: 
-      objectReference: {fileID: 269803019}
     - target: {fileID: 6346202704804359852, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
       propertyPath: m_Name
       value: FreakySquare
       objectReference: {fileID: 0}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: player
+    - target: {fileID: 7618877880779888382, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: Player
       value: 
       objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: attached
-      value: 
-      objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: aggroRange
-      value: 10
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -50667,6 +51015,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: Area
+      value: 
+      objectReference: {fileID: 269803019}
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: AttackAreaObject
+      value: 
+      objectReference: {fileID: 269803019}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: attached
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
+      propertyPath: aggroRange
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1038828676537168843, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 1038828676537168843, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: attached
+      value: 
+      objectReference: {fileID: 1246736508366327566}
     - target: {fileID: 6089253390847957996, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
       propertyPath: m_LocalPosition.x
       value: -267.5
@@ -50707,34 +51087,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: Area
-      value: 
-      objectReference: {fileID: 269803019}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: Player
-      value: 
-      objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: AttackAreaObject
-      value: 
-      objectReference: {fileID: 269803019}
     - target: {fileID: 6346202704804359852, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
       propertyPath: m_Name
       value: FreakySquare (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: player
+    - target: {fileID: 7618877880779888382, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: Player
       value: 
       objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: attached
-      value: 
-      objectReference: {fileID: 1246736508366327566}
-    - target: {fileID: 5442541777840708657, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
-      propertyPath: aggroRange
-      value: 10
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -51700,6 +52060,10 @@ PrefabInstance:
       propertyPath: plyare
       value: 
       objectReference: {fileID: 1246736508366327566}
+    - target: {fileID: 3945533709269272274, guid: 966eaa9745b48c34d97c333ff0d3a452, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 1246736508366327566}
     - target: {fileID: 5114723099319379359, guid: 966eaa9745b48c34d97c333ff0d3a452, type: 3}
       propertyPath: m_Name
       value: Main Camera
@@ -51760,7 +52124,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3583721132724544160, guid: 966eaa9745b48c34d97c333ff0d3a452, type: 3}
     m_RemovedGameObjects:
     - {fileID: 7251486833869954249, guid: 966eaa9745b48c34d97c333ff0d3a452, type: 3}
     - {fileID: 683040519858827434, guid: 966eaa9745b48c34d97c333ff0d3a452, type: 3}
