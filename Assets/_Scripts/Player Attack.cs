@@ -16,6 +16,7 @@ public class PlayerAttack : MonoBehaviour
     private float elapsedTime = 0f;
     private float chargeTime = 1f;
     
+
     void Start()
     {
         
@@ -30,7 +31,7 @@ public class PlayerAttack : MonoBehaviour
             if (elapsedTime >= attackCooldown)
             {
                 Debug.DrawLine(seeMe.transform.position, seeMe.attached.transform.position - seeMe.transform.position, Color.yellow);
-                if (Input.GetKey(KeyCode.Mouse1))
+                if (Input.GetKey(KeyCode.Mouse0))
                 {
                     Debug.Log(enemyAtm.health);
                     playerAtm.autoDamage(enemyAtm.gameObject);
@@ -38,7 +39,7 @@ public class PlayerAttack : MonoBehaviour
 
                 }
 
-                if (Input.GetKey(KeyCode.Mouse2))
+                if (Input.GetKey(KeyCode.Mouse1))
                 {
                     Debug.Log(enemyAtm.health);
                     charge();

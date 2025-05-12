@@ -1614,6 +1614,7 @@ MonoBehaviour:
   attached: {fileID: 536768022}
   speed: 3
   player: {fileID: 536768022}
+  distanceToAttached: 0
   aggroRange: 20
 --- !u!50 &1796386390
 Rigidbody2D:

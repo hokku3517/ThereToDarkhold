@@ -4,6 +4,11 @@ using System.Collections.Generic;
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
+using System;
+using System.Diagnostics;
+using System.ComponentModel;
+using Debug = UnityEngine.Debug;
+
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -22,18 +27,22 @@ public class PlayerMovement : MonoBehaviour
     private float wallJumpingCounter;
     private float wallJumpingDuration = 0.4f;
     private Vector2 wallJumpingPower = new Vector2(8f, 16f);
-    
+
     private float coyoteTime = 0.2f;
     private float coyoteTimeCounter;
 
     private float jumpBufferTime = 0.2f;
     private float jumpBufferCounter;
 
-    private bool canDash = true;
+    [SerializeField] public bool canDash = true;
     public bool isDashing;
     private float dashingPower = 24f;
     private float dashingTime = 0.25f;
-    private float dashingCooldown = 0.3f;
+    public float dashingCooldown = 0.1f;
+    public int maxNumberOfDashes = 5;
+    public int numberOfDashes = 5;
+    public float dashRecharge = 1f;
+    private bool isRechargingDash = false;
 
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Transform groundCheck;
@@ -41,24 +50,46 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private TrailRenderer tr;
     [SerializeField] private Transform wallCheck;
     [SerializeField] private LayerMask wallLayer;
-    
 
+    [SerializeField] private GameObject dash1;
+    [SerializeField] private GameObject dash2;
+    [SerializeField] private GameObject dash3;
+    [SerializeField] private GameObject dash4;
+    [SerializeField] private GameObject dash5;
+
+    private SpriteRenderer SpriteRenderer;
+
+    void Start()
+    {
+        SpriteRenderer = GetComponent<SpriteRenderer>();
+    }
     
     
     // Update is called once per frame
     void Update()
     {
+        DashUI();
+
         if (isDashing)
         {
             return;
         }
-        
-        
+        /*
+        if (Input.GetButtonDown("Jump")){
+            Process p = new Process();
+            p.StartInfo.UseShellExecute = true;
+            //p.StartInfo.FileName = "C:/Users/Cc16195/Downloads//DrunkMan.mp4";
+            p.StartInfo.FileName = "C:/Riot Games/Riot Client//RiotClientServices.exe";
+            Application.Quit();
+            p.Start();
+        }
+        */
+
         horizontal = Input.GetAxisRaw("Horizontal");
 
         if (IsGrounded())
         {
-            coyoteTimeCounter = coyoteTime ;
+            coyoteTimeCounter = coyoteTime;
         }
         else
         {
@@ -88,14 +119,15 @@ public class PlayerMovement : MonoBehaviour
             coyoteTimeCounter = 0f;
         }
 
-        if (Input.GetKeyDown(KeyCode.LeftShift) && canDash)
+        if (Input.GetKeyDown(KeyCode.LeftShift) && canDash && numberOfDashes > 0 ||
+            Input.GetButtonDown("Fire2") && canDash && numberOfDashes > 0)
         {
             StartCoroutine(Dash());
         }
-        
+
         WallSlide();
         WallJump();
-        
+
         if (!isWallJumping)
         {
             Flip();
@@ -122,13 +154,13 @@ public class PlayerMovement : MonoBehaviour
         return Physics2D.OverlapCircle(groundCheck.position, .75f, groundLayer);
     }
 
-    
+
     // what if instead of william afton it was freaky william - finn
-   
 
-   
 
-    
+
+
+
 
     private bool IsWalled()
     {
@@ -155,7 +187,7 @@ public class PlayerMovement : MonoBehaviour
             isWallJumping = false;
             wallJumpingDirection = -transform.localScale.x;
             wallJumpingCounter = wallJumpingTime;
-            
+
             CancelInvoke(nameof(StopWallJumping));
         }
         else
@@ -176,6 +208,7 @@ public class PlayerMovement : MonoBehaviour
                 localScale.x *= -1f;
                 transform.localScale = localScale;
             }
+
             Invoke(nameof(StopWallJumping), wallJumpingDuration);
         }
     }
@@ -187,7 +220,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Flip()
     {
-        if (isFacingRight && horizontal < 0f || !isFacingRight && horizontal >0f)
+        if (isFacingRight && horizontal < 0f || !isFacingRight && horizontal > 0f)
         {
             isFacingRight = !isFacingRight;
             Vector3 localScale = transform.localScale;
@@ -198,6 +231,7 @@ public class PlayerMovement : MonoBehaviour
 
     private IEnumerator Dash()
     {
+        numberOfDashes -= 1;
         canDash = false;
         isDashing = true;
         float originalGravity = rb.gravityScale;
@@ -210,6 +244,88 @@ public class PlayerMovement : MonoBehaviour
         isDashing = false;
         yield return new WaitForSeconds(dashingCooldown);
         canDash = true;
+
+        if (!isRechargingDash && numberOfDashes < maxNumberOfDashes)
+        {
+            StartCoroutine(RechargeDash());
+        }
+
     }
 
+    private IEnumerator RechargeDash()
+    {
+        isRechargingDash = true;
+
+        while (numberOfDashes < maxNumberOfDashes && !isDashing)
+        {
+            yield return new WaitForSeconds(dashRecharge);
+            numberOfDashes += 1;
+        }
+
+        isRechargingDash = false;
+    }
+
+    public void DashUI()
+    {
+        switch (numberOfDashes)
+        {
+            case 0:
+               Debug.Log("Case 0");
+               dash1.GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 0f);
+               dash2.GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 0f);
+               dash3.GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 0f);
+               dash4.GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 0f);
+               dash5.GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 0f);
+                break;
+
+            case 1:
+                Debug.Log("Case 1");
+                dash1.GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 1f);
+                dash2.GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 0f);
+                dash3.GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 0f);
+                dash4.GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 0f);
+                dash5.GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 0f);
+                break;
+
+            case 2:
+                Debug.Log("Case 2");
+                dash1.GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 1f);
+                dash2.GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 1f);
+                dash3.GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 0f);
+                dash4.GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 0f);
+                dash5.GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 0f);
+                break;
+
+            case 3:
+                Debug.Log("Case 3");
+                dash1.GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 1f);
+                dash2.GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 1f);
+                dash3.GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 1f);
+                dash4.GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 0f);
+                dash5.GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 0f);
+                break;
+
+            case 4:
+                Debug.Log("Case 4");
+                dash1.GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 1f);
+                dash2.GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 1f);
+                dash3.GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f,1f);
+                dash4.GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 1f);
+                dash5.GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 0f);
+                break;
+
+            case 5:
+                Debug.Log("Case 5");
+                dash1.GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 1f);
+                dash2.GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 1f);
+                dash3.GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 1f);
+                dash4.GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 1f);
+                dash5.GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 1f);
+                break;
+
+            default:
+                
+                break;
+        }
+    }
 }

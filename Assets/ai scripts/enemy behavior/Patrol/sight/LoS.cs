@@ -30,16 +30,16 @@ public class LoS : MonoBehaviour
         if (hasLineOfSight)
         {
             transform.position =
-                Vector2.MoveTowards(transform.position, attached.transform.position, speed * Time.deltaTime);
+                Vector2.MoveTowards(transform.position, player.transform.position, speed * Time.deltaTime);
         }
     }
 
     private void FixedUpdate()
     {
-        float distanceToAttached = Vector2.Distance(transform.position, attached.transform.position);
+        float distanceToAttached = Vector2.Distance(transform.position, player.transform.position);
         if (distanceToAttached <= aggroRange)
         {
-            RaycastHit2D ray = Physics2D.Raycast(transform.position, attached.transform.position - transform.position);
+            RaycastHit2D ray = Physics2D.Raycast(transform.position, player.transform.position - transform.position);
             if (ray.collider != null)
             {
                 hasLineOfSight = ray.collider.CompareTag("Friend");

@@ -9,7 +9,11 @@ public class EnemySpawn : MonoBehaviour
     [SerializeField] private int EnemySpawnAmount;
     
     private Vector3 hi;
-    
+
+    [SerializeField] private float x;
+    [SerializeField] private float y;
+    [SerializeField] private float z;
+
 
     // Start is called before the first frame update
     void Start()
@@ -29,12 +33,10 @@ public class EnemySpawn : MonoBehaviour
 		//Check for a match with the specified name on any GameObject that collides with your GameObject
         if (collision.gameObject.name == "Player")
         {
-            float x = gameObject.transform.position.x;
-            float y = gameObject.transform.position.y;
-            float z = gameObject.transform.position.z;
+            
 
+            //transform.localPosition = new Vector3(x,y,z);
             transform.localPosition = new Vector3(x,y,z);
-
             
             //hi = Instantiate(EnemyOffspring, gameObject.transform);
             for (int i = 0; i < EnemySpawnAmount; i++){
