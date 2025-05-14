@@ -56,7 +56,7 @@ public class LoS : MonoBehaviour
                 else
                 {
                     hasLineOfSight = false;
-                    Debug.DrawRay(transform.position, attached.transform.position - transform.position, Color.red);
+                    
                     //Debug.Log(transform.name);
                 }
 
