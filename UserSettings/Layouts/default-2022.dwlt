@@ -19,11 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-<<<<<<< HEAD
   m_Title: Scene
-=======
-  m_Title: Project
->>>>>>> Finn
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -476,16 +472,10 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-<<<<<<< HEAD
-      m_SelectedIDs: 4ef3ffff
-      m_LastClickedID: -3250
-      m_ExpandedIDs: 7ef3ffff8af3ffff56f5ffffaaf6ffff0efbffff6676000000770000
-=======
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 0cfbffff
->>>>>>> Finn
+      scrollPos: {x: 0, y: 159}
+      m_SelectedIDs: 12720000
+      m_LastClickedID: 29202
+      m_ExpandedIDs: 12faffff16faffffbcfafffff0faffff0cfbffff0a720000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -898,15 +888,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-<<<<<<< HEAD
-    m_Target: {x: -585.4564, y: 117.56824, z: -4.68559}
+    m_Target: {x: 35.852585, y: 13.8665695, z: -0.32375824}
     speed: 2
-    m_Value: {x: -584.4116, y: 117.060295, z: -4.6926694}
-=======
-    m_Target: {x: 28.867468, y: 10.702498, z: -1.2628028}
-    speed: 2
-    m_Value: {x: 27.553713, y: 10.348534, z: -1.2271341}
->>>>>>> Finn
+    m_Value: {x: 35.852585, y: 13.8665695, z: -0.32375824}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -956,15 +940,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-<<<<<<< HEAD
-    m_Target: 15.024414
+    m_Target: 21.808132
     speed: 2
-    m_Value: 15.73237
-=======
-    m_Target: 82.83093
-    speed: 2
-    m_Value: 79.26405
->>>>>>> Finn
+    m_Value: 21.808132
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1040,11 +1018,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-<<<<<<< HEAD
-    - Assets/ai scripts/enemy behavior/Patrol/sight
-=======
-    - Assets/Prefabs
->>>>>>> Finn
+    - Assets/Sprites
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -1052,24 +1026,15 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-<<<<<<< HEAD
-  - Assets/ai scripts/enemy behavior/Patrol/sight
-=======
-  - Assets/Prefabs
->>>>>>> Finn
+  - Assets/Sprites
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Cc16195\Desktop\ThereToDarkhold
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-<<<<<<< HEAD
-    m_SelectedIDs: 78760000
-    m_LastClickedID: 30328
-    m_ExpandedIDs: 00000000a4730000a6730000a8730000aa730000ac730000ae730000b0730000b2730000b4730000b6730000b8730000
-=======
-    m_SelectedIDs: ac750000
-    m_LastClickedID: 30124
+    m_SelectedIDs: b4750000
+    m_LastClickedID: 30132
     m_ExpandedIDs: 000000007a7500007c7500007e7500008075000082750000847500008675000000ca9a3b
 >>>>>>> Finn
     m_RenameOverlay:
