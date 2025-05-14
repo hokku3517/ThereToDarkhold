@@ -1,6 +1,8 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Rendering.Universal;
@@ -12,6 +14,7 @@ public class AttributesManager : MonoBehaviour
     public int autoAmount = 1;
     public int heavyWindAmount = 20;
     public int health = 100;
+    public int coinNumber;
 
     
 
@@ -23,6 +26,8 @@ public class AttributesManager : MonoBehaviour
     private PlayerMovement pm;
     private SpriteRenderer SpriteRenderer;
     public int damageCounter = 0;
+
+    [SerializeField] TextMeshProUGUI coinCounter;
     
 
     public void TakeDamage(int amount)
@@ -98,8 +103,9 @@ public class AttributesManager : MonoBehaviour
         pm = GetComponent<PlayerMovement>();
         SpriteRenderer = GetComponent<SpriteRenderer>();
     }
+    
 
-   
+
     void Update()
     {
 
@@ -132,6 +138,11 @@ public class AttributesManager : MonoBehaviour
         HandleCollision(collision);
     }
 
-    
+    public void IncreaseCoins()
+    {
+        Debug.Log("Should go up in coinage");
+        coinNumber++;
+        coinCounter.text = "" + coinNumber;
+    }
     
 }
