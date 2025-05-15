@@ -4,12 +4,15 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
+    [SerializeField] private int timeToDespawn;
+    
+    
     // Start is called before the first frame update
     void Start()
     {
         StartCoroutine(ExampleCoroutine());
+        
     }
-
     // Update is called once per frame
     void Update()
     {
@@ -17,24 +20,26 @@ public class Bullet : MonoBehaviour
     }
     IEnumerator ExampleCoroutine()
     {
-        //Print the time of when the function is first called.
-        Debug.Log("Started Coroutine at timestamp : " + Time.time);
-
-        //yield on a new YieldInstruction that waits for 5 seconds.
-        yield return new WaitForSeconds(5);
-        Destroy(gameObject);
-
-        //After we have waited 5 seconds print the time again.
-        Debug.Log("Finished Coroutine at timestamp : " + Time.time);
-    }
-         
-    public void HandleCollision(Collision2D collision)
-    {
+        yield return new WaitForSeconds(timeToDespawn);
+        if (gameObject.name != "Bullet"){
+            Destroy(gameObject);
+        }
         
+    }
+    public void OnCollisionEnter2D(Collision2D collision)
+    {
+        Destroy(gameObject);
         if (collision.gameObject.CompareTag("Enemy"))
         {
-            Destroy(collision.gameObject);
+            if (collision.gameObject.name.Contains("Square"))
+                {
+                    //Destroy(collision.gameObject);
+                    collision.gameObject.GetComponent<AttributesManager>().health -= 25;
+                    //am.TakeDamage(collision.gameObject.name, 2);
+                    
+                    
+                    //am.TakeDamage("Square", 25);
+                }
         }
     }
-
 }
