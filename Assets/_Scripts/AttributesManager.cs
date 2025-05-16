@@ -15,7 +15,7 @@ public class AttributesManager : MonoBehaviour
     private int heavyWindAmount = 20;
     public int health;
     public int coinNumber;
-    
+     public int sceneBuldIndex;
     
 
     
@@ -152,6 +152,7 @@ public class AttributesManager : MonoBehaviour
         } else if (gameObject.name.Contains("FreakyBoss")){
             if (health <= 0){
                 freakyBossDead = true;
+                SceneManager.LoadScene(sceneBuldIndex, LoadSceneMode.Single);
                 Destroy(gameObject);
             }
             

@@ -40745,11 +40745,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6089253390847957996, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.2
+      value: -535.6
       objectReference: {fileID: 0}
     - target: {fileID: 6089253390847957996, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 27.3
+      value: 152.8
       objectReference: {fileID: 0}
     - target: {fileID: 6089253390847957996, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
       propertyPath: m_LocalPosition.z
@@ -40802,6 +40802,10 @@ PrefabInstance:
     - target: {fileID: 8418815166245497152, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
       propertyPath: health
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8418815166245497152, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
+      propertyPath: sceneBuldIndex
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2214707484455161442, guid: aa9d81a9d8e865c43afaef32fd2ae703, type: 3}
       propertyPath: Area
@@ -52932,6 +52936,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 100
   coinNumber: 0
+  sceneBuldIndex: 0
   heart1: {fileID: 0}
   heart2: {fileID: 0}
   heart3: {fileID: 0}
@@ -53107,6 +53112,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 100
   coinNumber: 0
+  sceneBuldIndex: 0
   heart1: {fileID: 298152645932577035}
   heart2: {fileID: 298152645932577034}
   heart3: {fileID: 298152645932577033}
