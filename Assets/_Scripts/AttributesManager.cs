@@ -29,6 +29,8 @@ public class AttributesManager : MonoBehaviour
     private SpriteRenderer SpriteRenderer;
     public int damageCounter = 0;
 
+    public bool freakyBossDead;
+
     [SerializeField] TextMeshProUGUI coinCounter;
     
 
@@ -102,13 +104,16 @@ public class AttributesManager : MonoBehaviour
         SpriteRenderer = GetComponent<SpriteRenderer>();
 
         health = 100;
+        freakyBossDead = false;
+        if (gameObject.name.Contains("FreakyBoss")){
+            health = 500;
+        } 
     }
     
 
 
     void Update()
     {
-        
         if(gameObject.name == "Player"){
             if (health > 75 && health <= 100){
                 //4hearts do nothing
@@ -139,6 +144,12 @@ public class AttributesManager : MonoBehaviour
             
         } else if (gameObject.name.Contains("Sonic")){
             if (health <= 0){
+                Destroy(gameObject);
+            }
+            
+        } else if (gameObject.name.Contains("FreakyBoss")){
+            if (health <= 0){
+                freakyBossDead = true;
                 Destroy(gameObject);
             }
             

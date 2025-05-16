@@ -24,22 +24,26 @@ public class Bullet : MonoBehaviour
         if (gameObject.name != "Bullet"){
             Destroy(gameObject);
         }
+
         
     }
     public void OnCollisionEnter2D(Collision2D collision)
     {
         Destroy(gameObject);
-        if (collision.gameObject.CompareTag("Enemy"))
-        {
-            if (collision.gameObject.name.Contains("Square"))
-                {
-                    //Destroy(collision.gameObject);
-                    collision.gameObject.GetComponent<AttributesManager>().health -= 25;
-                    //am.TakeDamage(collision.gameObject.name, 2);
+        if (collision.gameObject.name.Contains("Square"))
+            {
+                //Destroy(collision.gameObject);
+                collision.gameObject.GetComponent<AttributesManager>().health -= 25;
+                //am.TakeDamage(collision.gameObject.name, 2);s
                     
                     
-                    //am.TakeDamage("Square", 25);
-                }
-        }
+                //am.TakeDamage("Square", 25);
+            } else if (collision.gameObject.name.Contains("FreakyBoss"))
+            {
+               collision.gameObject.GetComponent<AttributesManager>().health -= 25;
+            }
+        
+            
+        
     }
 }
