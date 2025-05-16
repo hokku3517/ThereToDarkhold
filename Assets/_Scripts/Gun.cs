@@ -14,12 +14,12 @@ public class Gun : MonoBehaviour
     [SerializeField] private Rigidbody2D BulletRigidbody;
 
     [SerializeField] private GameObject Barrel;
-    [SerializeField] private float fireRate = 5;
+    private float fireRate;
 
     private float mouseX;
     private float mouseY;
 
-    [SerializeField] private int bulletSpeed = 100;
+    private int bulletSpeed;
 
     bool canShoot;
     float angle;
@@ -32,6 +32,8 @@ public class Gun : MonoBehaviour
     {
         BulletRigidbody = Bullet.GetComponent<Rigidbody2D>();
         canShoot = true;
+        bulletSpeed = 1000;
+        fireRate = .2f;
     }
 
     // Update is called once per frame
