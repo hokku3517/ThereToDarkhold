@@ -47,6 +47,8 @@ public class AttributesManager : MonoBehaviour
             
         }
     }
+    
+    
 
     public void HandleCollision(Collision2D collision)
     {
