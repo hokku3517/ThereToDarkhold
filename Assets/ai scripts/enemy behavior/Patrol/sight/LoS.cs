@@ -7,8 +7,9 @@ using UnityEngine.Serialization;
 
 public class LoS : MonoBehaviour
 {
-    [FormerlySerializedAs("player")] [SerializeField] [NotNull]
+    
     public GameObject attached;
+    
 
     [SerializeField] private float speed;
     [SerializeField] public GameObject player;

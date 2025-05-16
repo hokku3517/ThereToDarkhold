@@ -13,11 +13,15 @@ public class Gun : MonoBehaviour
     [SerializeField] private GameObject Bullet;
     [SerializeField] private Rigidbody2D BulletRigidbody;
 
+    [SerializeField] private GameObject Barrel;
+    private float fireRate;
+
     private float mouseX;
     private float mouseY;
 
-    [SerializeField] private int bulletSpeed = 100;
+    private int bulletSpeed;
 
+    bool canShoot;
     float angle;
 
     GameObject instance;
@@ -27,6 +31,9 @@ public class Gun : MonoBehaviour
     void Start()
     {
         BulletRigidbody = Bullet.GetComponent<Rigidbody2D>();
+        canShoot = true;
+        bulletSpeed = 1000;
+        fireRate = .2f;
     }
 
     // Update is called once per frame
@@ -59,39 +66,21 @@ public class Gun : MonoBehaviour
     }
 
     void ShootingLogic(){
-        if (Input.GetMouseButtonDown(0)) // Left mouse button click
+        if (Input.GetMouseButton(0) && canShoot == true) // Left mouse button click
         {
-            instance = Instantiate(Bullet, SecondAmmendment.transform.position, Quaternion.identity);
-            /* 
-            float xcomponent = Mathf.Cos(angle * Mathf.PI / 180) * bulletSpeed;
-            float ycomponent = Mathf.Sin(angle * Mathf.PI / 180) * bulletSpeed;
-            Vector3 asjfdn = new Vector3(ycomponent, 0, xcomponent);
-            */
-
-            Vector3 dir = Quaternion.AngleAxis(angle, Vector3.forward) * Vector3.right;
-            
-            instance.GetComponent<Rigidbody2D>().AddForce(dir * bulletSpeed);
-            
-            
-
-            /*
-            Debug.Log("amgonsu");
-            RaycastHit2D ray = Physics2D.Raycast(transform.position, Player.transform.position - transform.position); 
-            if (ray.collider != null)
-            {
-                // Raycast hit something!
-                Debug.DrawRay(transform.position, SecondAmmendment.transform.position - transform.position, Color.red);
-                Debug.Log("Hit");
-                // Handle the hit (e.g., damage the object, play a sound, etc.)
-            }
-            else
-            {
-                // Raycast didn't hit anything
-                Debug.DrawRay(transform.position, SecondAmmendment.transform.position - transform.position, Color.red);
-                Debug.Log("No hit");
-            }
-            */
+            StartCoroutine(Shooting());
         }
             
     }
+    IEnumerator Shooting(){
+            instance = Instantiate(Bullet, Barrel.transform.position, Quaternion.identity);
+            Vector3 dir = Quaternion.AngleAxis(angle, Vector3.forward) * Vector3.right;
+            instance.GetComponent<Rigidbody2D>().AddForce(dir * bulletSpeed);
+            canShoot = false;
+            yield return new WaitForSeconds(fireRate);
+            canShoot = true;
+            
+             
+    }
+    
 }

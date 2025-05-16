@@ -11,10 +11,12 @@ using UnityEngine.SceneManagement;
 public class AttributesManager : MonoBehaviour
 {
     
-    public int autoAmount = 1;
-    public int heavyWindAmount = 20;
-    public int health = 100;
+    private int autoAmount = 1;
+    private int heavyWindAmount = 20;
+    public int health;
     public int coinNumber;
+    
+    
 
     
 
@@ -30,21 +32,23 @@ public class AttributesManager : MonoBehaviour
     [SerializeField] TextMeshProUGUI coinCounter;
     
 
-    public void TakeDamage(int amount)
+    public void TakeDamage(String name, int amount)
     {
-        if (!pm.canDash || pm.isDashing){
-            
-        } else if (pm.canDash || !pm.isDashing){
-            
+        Debug.Log("I got called and my health is " + health);
+        if (name.Contains(name)){
+            /*
+                Debug.Log("I got my name checked and it is valid"); 
+                Debug.Log("If it worked my health was" + health);
+
+                Debug.Log(" and is now" + health);
+            */
             
         }
     }
 
     public void HandleCollision(Collision2D collision)
     {
-        
         if (collision.gameObject.CompareTag("Enemy"))
-        {
             if (pm.isDashing)
             {
                 if (damageCounter < 3 && collision.gameObject.name.Contains("Sonic"))
@@ -52,25 +56,19 @@ public class AttributesManager : MonoBehaviour
                     damageCounter++;
                 } else if (!collision.gameObject.name.Contains("Sonic"))
                 {
-                    Destroy(collision.gameObject);
+                    //Destroy(collision.gameObject);
                 } else if (damageCounter >= 3 && collision.gameObject.name.Contains("Sonic"))
                 {
-                    Destroy(collision.gameObject);
+                    //Destroy(collision.gameObject);
                 }
-                
-                
-
             }
             else
             {
-                {
-                   
-                }
-                health -= autoAmount;
+                //health -= autoAmount;
                 StartCoroutine(FlashRed());
             }
         }
-    }
+    
 
     public IEnumerator FlashRed()
     {
@@ -85,7 +83,7 @@ public class AttributesManager : MonoBehaviour
         var atm = target.GetComponent<AttributesManager>();
         if (atm != null)
         {
-           atm.TakeDamage(autoAmount);
+           //atm.TakeDamage(autoAmount);
         }
     }
 
@@ -94,7 +92,7 @@ public class AttributesManager : MonoBehaviour
         var atm = target.GetComponent<AttributesManager>();
         if (atm != null)
         {
-            atm.TakeDamage(heavyWindAmount);
+            //atm.TakeDamage(heavyWindAmount);
         }
     }
    
@@ -102,35 +100,50 @@ public class AttributesManager : MonoBehaviour
     {
         pm = GetComponent<PlayerMovement>();
         SpriteRenderer = GetComponent<SpriteRenderer>();
+
+        health = 100;
     }
     
 
 
     void Update()
     {
-
-        if (health > 75 && health <= 100){
-            //4hearts do nothing
-        } else if (health > 50 && health <= 75){
-            //3 heartts delete heart 4
-            Destroy(heart4);
-        } else if (health > 25 && health <= 50){
-            //2 heartts delete heart 3
-            Destroy(heart3);
-            Destroy(heart4);
-        } else if (health > 1 && health <= 25){
-            //1 heartts delete heart 2
-            Destroy(heart2);
-            Destroy(heart3);
-            Destroy(heart4);
-        } else if (health < 1){
-            //0 hearts delete heart 1
-            Destroy(heart1);
-            Destroy(heart2);
-            Destroy(heart3);
-            Destroy(heart4);
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        
+        if(gameObject.name == "Player"){
+            if (health > 75 && health <= 100){
+                //4hearts do nothing
+            } else if (health > 50 && health <= 75){
+                //3 heartts delete heart 4
+                Destroy(heart4);
+            } else if (health > 25 && health <= 50){
+                //2 heartts delete heart 3
+                Destroy(heart3);
+                Destroy(heart4);
+            } else if (health > 1 && health <= 25){
+                //1 heartts delete heart 2
+                Destroy(heart2);
+                Destroy(heart3);
+                Destroy(heart4);
+            } else if (health < 1){
+                //0 hearts delete heart 1
+                Destroy(heart1);
+                Destroy(heart2);
+                Destroy(heart3);
+                Destroy(heart4);
+                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            }
+        } else if (gameObject.name.Contains("Square")){
+            if (health <= 0){
+                Destroy(gameObject);
+            }
+            
+        } else if (gameObject.name.Contains("Sonic")){
+            if (health <= 0){
+                Destroy(gameObject);
+            }
+            
         }
+        
         
     }
     
