@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 1218894863553737609}
   - component: {fileID: 7092324633340830008}
   - component: {fileID: 1038828676537168843}
-  - component: {fileID: 7618877880779888382}
   - component: {fileID: 8418815166245497152}
   m_Layer: 2
   m_Name: FreakySquare
@@ -178,21 +177,6 @@ MonoBehaviour:
   player: {fileID: 0}
   distanceToAttached: 0
   aggroRange: 20
---- !u!114 &7618877880779888382
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6346202704804359852}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ce1b1e447475db145a646d2d9bf9c756, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Player: {fileID: 0}
-  AttackAreaObject: {fileID: 0}
-  Area: {fileID: 0}
 --- !u!114 &8418815166245497152
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -205,11 +189,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 043df98e310d34b448ff1fc00a80eb04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  autoAmount: 1
-  heavyWindAmount: 20
   health: 20
+  coinNumber: 0
   heart1: {fileID: 0}
   heart2: {fileID: 0}
   heart3: {fileID: 0}
   heart4: {fileID: 0}
   damageCounter: 0
+  coinCounter: {fileID: 0}

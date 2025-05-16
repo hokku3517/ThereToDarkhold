@@ -137,6 +137,11 @@ public class AttributesManager : MonoBehaviour
                 Destroy(gameObject);
             }
             
+        } else if (gameObject.name.Contains("Sonic")){
+            if (health <= 0){
+                Destroy(gameObject);
+            }
+            
         }
         
         
