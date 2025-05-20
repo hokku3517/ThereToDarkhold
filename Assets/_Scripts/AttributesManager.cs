@@ -17,7 +17,7 @@ public class AttributesManager : MonoBehaviour
     private int heavyWindAmount = 20;
     public int health;
     public int coinNumber;
-     public int sceneBuldIndex;
+    public bool isColliding;
     
 
     
@@ -151,8 +151,15 @@ public class AttributesManager : MonoBehaviour
         
     }
     
-    void OnCollisionEnter2D(Collision2D collision) {
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        isColliding = true;
         HandleCollision(collision);
+    }
+
+    private void OnCollisionExit2D(Collision2D other)
+    {
+        isColliding = false;
     }
 
     public void IncreaseCoins()
