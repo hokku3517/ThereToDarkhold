@@ -9,13 +9,13 @@ public class Coin : MonoBehaviour
     public AttributesManager Name;
 
     // Start is called before the first frame update
-    
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
         transform.Rotate(0,200*(Time.deltaTime),0);
     }
+
+    
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
