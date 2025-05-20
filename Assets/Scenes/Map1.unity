@@ -834,6 +834,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraMode: 2
   PlayerCamera: {fileID: 1912697297}
+  score: {fileID: 0}
 --- !u!1 &42979239
 GameObject:
   m_ObjectHideFlags: 0
@@ -1099,6 +1100,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraMode: 2
   PlayerCamera: {fileID: 1912697297}
+  score: {fileID: 0}
 --- !u!1 &47738105
 GameObject:
   m_ObjectHideFlags: 0
@@ -1680,6 +1682,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraMode: 1
   PlayerCamera: {fileID: 1912697297}
+  score: {fileID: 0}
 --- !u!1 &82544859
 GameObject:
   m_ObjectHideFlags: 0
@@ -4685,6 +4688,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraMode: 1
   PlayerCamera: {fileID: 1912697297}
+  score: {fileID: 0}
 --- !u!1001 &201012740
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6465,6 +6469,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraMode: 1
   PlayerCamera: {fileID: 1912697297}
+  score: {fileID: 0}
 --- !u!1 &269803019 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4810614636088028898, guid: 510c25036f1f38046865f354e1fbbc33, type: 3}
@@ -6634,6 +6639,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraMode: 2
   PlayerCamera: {fileID: 1912697297}
+  score: {fileID: 0}
 --- !u!1 &282481558
 GameObject:
   m_ObjectHideFlags: 0
@@ -7781,6 +7787,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraMode: 1
   PlayerCamera: {fileID: 1912697297}
+  score: {fileID: 0}
 --- !u!1001 &340321604
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8115,6 +8122,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraMode: 1
   PlayerCamera: {fileID: 1912697297}
+  score: {fileID: 0}
 --- !u!1001 &347142648
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10287,6 +10295,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraMode: 2
   PlayerCamera: {fileID: 1912697297}
+  score: {fileID: 0}
 --- !u!1 &474058601
 GameObject:
   m_ObjectHideFlags: 0
@@ -11036,6 +11045,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraMode: 1
   PlayerCamera: {fileID: 1912697297}
+  score: {fileID: 0}
 --- !u!1 &515687173
 GameObject:
   m_ObjectHideFlags: 0
@@ -11543,6 +11553,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraMode: 1
   PlayerCamera: {fileID: 1912697297}
+  score: {fileID: 0}
 --- !u!1 &540911109
 GameObject:
   m_ObjectHideFlags: 0
@@ -11808,6 +11819,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraMode: 2
   PlayerCamera: {fileID: 1912697297}
+  score: {fileID: 0}
 --- !u!1 &552710119 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8218781676566532694, guid: 966eaa9745b48c34d97c333ff0d3a452, type: 3}
@@ -13837,6 +13849,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraMode: 2
   PlayerCamera: {fileID: 1912697297}
+  score: {fileID: 0}
 --- !u!1001 &625308219
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15093,6 +15106,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraMode: 1
   PlayerCamera: {fileID: 1912697297}
+  score: {fileID: 0}
 --- !u!1 &681625271
 GameObject:
   m_ObjectHideFlags: 0
@@ -16622,6 +16636,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraMode: 1
   PlayerCamera: {fileID: 1912697297}
+  score: {fileID: 0}
 --- !u!1 &740000123
 GameObject:
   m_ObjectHideFlags: 0
@@ -20302,6 +20317,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraMode: 2
   PlayerCamera: {fileID: 1912697297}
+  score: {fileID: 0}
 --- !u!1 &911782993
 GameObject:
   m_ObjectHideFlags: 0
@@ -22006,6 +22022,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraMode: 1
   PlayerCamera: {fileID: 1912697297}
+  score: {fileID: 0}
 --- !u!1 &975460346
 GameObject:
   m_ObjectHideFlags: 0
@@ -23125,6 +23142,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraMode: 2
   PlayerCamera: {fileID: 1912697297}
+  score: {fileID: 0}
 --- !u!1 &1010608143
 GameObject:
   m_ObjectHideFlags: 0
@@ -23908,6 +23926,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraMode: 2
   PlayerCamera: {fileID: 1912697297}
+  score: {fileID: 0}
 --- !u!1 &1064893669
 GameObject:
   m_ObjectHideFlags: 0
@@ -24173,6 +24192,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraMode: 2
   PlayerCamera: {fileID: 1912697297}
+  score: {fileID: 0}
 --- !u!1 &1071110106
 GameObject:
   m_ObjectHideFlags: 0
@@ -25624,6 +25644,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraMode: 1
   PlayerCamera: {fileID: 1912697297}
+  score: {fileID: 0}
 --- !u!1 &1123185947
 GameObject:
   m_ObjectHideFlags: 0
@@ -26062,6 +26083,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraMode: 2
   PlayerCamera: {fileID: 1912697297}
+  score: {fileID: 0}
 --- !u!1 &1143029899
 GameObject:
   m_ObjectHideFlags: 0
@@ -26638,6 +26660,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraMode: 1
   PlayerCamera: {fileID: 1912697297}
+  score: {fileID: 0}
 --- !u!1 &1158004491
 GameObject:
   m_ObjectHideFlags: 0
@@ -27941,8 +27964,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 100.1
+  m_fontSizeBase: 100.1
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -28007,7 +28030,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -93, y: 164}
+  m_AnchoredPosition: {x: 388, y: 166}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1223267692
@@ -29166,6 +29189,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraMode: 1
   PlayerCamera: {fileID: 1912697297}
+  score: {fileID: 0}
 --- !u!1 &1275867939
 GameObject:
   m_ObjectHideFlags: 0
@@ -29734,6 +29758,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraMode: 2
   PlayerCamera: {fileID: 1912697297}
+  score: {fileID: 0}
 --- !u!1 &1290166814
 GameObject:
   m_ObjectHideFlags: 0
@@ -32366,6 +32391,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraMode: 2
   PlayerCamera: {fileID: 1912697297}
+  score: {fileID: 0}
 --- !u!1 &1364307643
 GameObject:
   m_ObjectHideFlags: 0
@@ -33216,6 +33242,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraMode: 1
   PlayerCamera: {fileID: 1912697297}
+  score: {fileID: 0}
 --- !u!1 &1417236509
 GameObject:
   m_ObjectHideFlags: 0
@@ -34289,6 +34316,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraMode: 1
   PlayerCamera: {fileID: 1912697297}
+  score: {fileID: 0}
 --- !u!1001 &1473376337
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35930,6 +35958,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraMode: 1
   PlayerCamera: {fileID: 1912697297}
+  score: {fileID: 0}
 --- !u!1 &1572129554
 GameObject:
   m_ObjectHideFlags: 0
@@ -37130,6 +37159,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraMode: 2
   PlayerCamera: {fileID: 1912697297}
+  score: {fileID: 0}
 --- !u!1 &1596581038
 GameObject:
   m_ObjectHideFlags: 0
@@ -37543,6 +37573,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraMode: 2
   PlayerCamera: {fileID: 1912697297}
+  score: {fileID: 0}
 --- !u!1 &1618668315
 GameObject:
   m_ObjectHideFlags: 0
@@ -38002,6 +38033,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraMode: 2
   PlayerCamera: {fileID: 1912697297}
+  score: {fileID: 0}
 --- !u!1 &1626834041
 GameObject:
   m_ObjectHideFlags: 0
@@ -38263,6 +38295,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraMode: 2
   PlayerCamera: {fileID: 1912697297}
+  score: {fileID: 0}
 --- !u!1001 &1647258300
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -40783,11 +40816,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6089253390847957996, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -9.4
+      value: -5.2
       objectReference: {fileID: 0}
     - target: {fileID: 6089253390847957996, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 29.9
+      value: 26.9
       objectReference: {fileID: 0}
     - target: {fileID: 6089253390847957996, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
       propertyPath: m_LocalPosition.z
@@ -40847,7 +40880,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8418815166245497152, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
       propertyPath: OnDeathEvent.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8418815166245497152, guid: 5d19b460cfacdd24d8dc0c55d2d37b92, type: 3}
       propertyPath: OnDeathEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -41834,6 +41867,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraMode: 2
   PlayerCamera: {fileID: 1912697297}
+  score: {fileID: 0}
 --- !u!1 &1761362789
 GameObject:
   m_ObjectHideFlags: 0
@@ -44218,6 +44252,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraMode: 2
   PlayerCamera: {fileID: 1912697297}
+  score: {fileID: 0}
 --- !u!1 &1827150267
 GameObject:
   m_ObjectHideFlags: 0
@@ -44588,6 +44623,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraMode: 1
   PlayerCamera: {fileID: 1912697297}
+  score: {fileID: 0}
 --- !u!1001 &1830604292
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -46872,6 +46908,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraMode: 1
   PlayerCamera: {fileID: 1912697297}
+  score: {fileID: 0}
 --- !u!1001 &1929224090
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -48812,6 +48849,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraMode: 2
   PlayerCamera: {fileID: 1912697297}
+  score: {fileID: 0}
 --- !u!1001 &1992351706
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -49410,6 +49448,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraMode: 1
   PlayerCamera: {fileID: 1912697297}
+  score: {fileID: 0}
 --- !u!1 &2035007881
 GameObject:
   m_ObjectHideFlags: 0
@@ -51368,6 +51407,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraMode: 2
   PlayerCamera: {fileID: 1912697297}
+  score: {fileID: 0}
 --- !u!1001 &2117707669
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -52136,50 +52176,6 @@ Transform:
   - {fileID: 177697996236118311}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &813335276423149143
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1246736508366327566}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 621567455fd1c4ceb811cc8a00b6a1a5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_NotificationBehavior: 0
-  m_MaxPlayerCount: -1
-  m_AllowJoining: 1
-  m_JoinBehavior: 0
-  m_PlayerJoinedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_PlayerLeftEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_JoinAction:
-    m_UseReference: 0
-    m_Action:
-      m_Name: 
-      m_Type: 0
-      m_ExpectedControlType: 
-      m_Id: 
-      m_Processors: 
-      m_Interactions: 
-      m_SingletonActionBindings: []
-      m_Flags: 0
-    m_Reference: {fileID: 0}
-  m_PlayerPrefab: {fileID: 0}
-  m_SplitScreen: 0
-  m_MaintainAspectRatioInSplitScreen: 0
-  m_FixedNumberOfSplitScreens: -1
-  m_SplitScreenRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
 --- !u!1001 &1073281003209424702
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -52253,13 +52249,9 @@ GameObject:
   - component: {fileID: 7605167007903731661}
   - component: {fileID: 7438351582180493139}
   - component: {fileID: 2376863926901478084}
-  - component: {fileID: 1630644985300350671}
-  - component: {fileID: 813335276423149143}
-  - component: {fileID: 8156695167477406202}
   - component: {fileID: 3281432336898714607}
   - component: {fileID: 8156695167477406207}
   - component: {fileID: 8156695167477406206}
-  - component: {fileID: 8156695167477406205}
   - component: {fileID: 8156695167477406204}
   - component: {fileID: 8156695167477406203}
   m_Layer: 0
@@ -52285,100 +52277,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1630644985300350671
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1246736508366327566}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: 9b8128b90582c5d47900b854ca5d3545, type: 3}
-  m_NotificationBehavior: 2
-  m_UIInputModule: {fileID: 0}
-  m_DeviceLostEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_DeviceRegainedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ControlsChangedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ActionEvents:
-  - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: PlayerMovement, Assembly-CSharp
-        m_MethodName: Move
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_ActionId: 36d2f2a9-2b13-44e0-b837-71b9501e3da6
-    m_ActionName: Player/Move[/Keyboard/w,/Keyboard/upArrow,/Keyboard/s,/Keyboard/downArrow,/Keyboard/a,/Keyboard/leftArrow,/Keyboard/d,/Keyboard/rightArrow]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 8ac6dd1c-818c-41e3-a8ba-c3b170a987a4
-    m_ActionName: Player/Look[/Mouse/delta]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 42e8f49d-d951-468a-948e-f0405882e11b
-    m_ActionName: Player/Fire[/Mouse/leftButton]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 11abf70f-a9ed-4016-ad5f-fa2d517ed050
-    m_ActionName: UI/Navigate[/Keyboard/w,/Keyboard/upArrow,/Keyboard/s,/Keyboard/downArrow,/Keyboard/a,/Keyboard/leftArrow,/Keyboard/d,/Keyboard/rightArrow]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 1c6143bf-efc7-474b-bbb9-6d203bb0fa97
-    m_ActionName: UI/Submit[/Keyboard/enter]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 157bea04-78e7-41cb-819a-9d8c39df2d2e
-    m_ActionName: UI/Cancel[/Keyboard/escape]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: cb72fd87-0de7-4b7d-91ce-9b24d1ba241a
-    m_ActionName: UI/Point[/Mouse/position]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 27e5cd45-5bf4-4f3c-8256-bdc089c22461
-    m_ActionName: UI/Click[/Mouse/leftButton]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: a2eea76b-bb67-496d-a5a6-001aea3da748
-    m_ActionName: UI/ScrollWheel[/Mouse/scroll]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 5053d7c4-658d-4129-8402-7558c1baa366
-    m_ActionName: UI/MiddleClick[/Mouse/middleButton]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: f6a795fe-cf5d-4190-9885-206b52a57743
-    m_ActionName: UI/RightClick[/Mouse/rightButton]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: e035f46f-c04c-4c0c-af88-3e6272b27fd3
-    m_ActionName: UI/TrackedDevicePosition
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 6a4c5d0b-67e5-491b-b223-7782c2810e55
-    m_ActionName: UI/TrackedDeviceOrientation
-  m_NeverAutoSwitchControlSchemes: 0
-  m_DefaultControlScheme: 
-  m_DefaultActionMap: Player
-  m_SplitScreenIndex: -1
-  m_Camera: {fileID: 0}
 --- !u!4 &2225597638528350550
 Transform:
   m_ObjectHideFlags: 0
@@ -52995,7 +52893,7 @@ MonoBehaviour:
   OnDeathEvent:
     m_PersistentCalls:
       m_Calls: []
-  freakyBossDead: 0
+  canTickDamage: 0
   coinCounter: {fileID: 0}
 --- !u!50 &7438351582180493139
 Rigidbody2D:
@@ -53107,50 +53005,6 @@ Transform:
   - {fileID: 3403045024267646686}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8156695167477406202
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1246736508366327566}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 621567455fd1c4ceb811cc8a00b6a1a5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_NotificationBehavior: 0
-  m_MaxPlayerCount: -1
-  m_AllowJoining: 1
-  m_JoinBehavior: 0
-  m_PlayerJoinedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_PlayerLeftEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_JoinAction:
-    m_UseReference: 0
-    m_Action:
-      m_Name: 
-      m_Type: 0
-      m_ExpectedControlType: 
-      m_Id: 
-      m_Processors: 
-      m_Interactions: 
-      m_SingletonActionBindings: []
-      m_Flags: 0
-    m_Reference: {fileID: 0}
-  m_PlayerPrefab: {fileID: 0}
-  m_SplitScreen: 0
-  m_MaintainAspectRatioInSplitScreen: 0
-  m_FixedNumberOfSplitScreens: -1
-  m_SplitScreenRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
 --- !u!114 &8156695167477406203
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53174,7 +53028,7 @@ MonoBehaviour:
   OnDeathEvent:
     m_PersistentCalls:
       m_Calls: []
-  freakyBossDead: 0
+  canTickDamage: 0
   coinCounter: {fileID: 1205752382}
 --- !u!114 &8156695167477406204
 MonoBehaviour:
@@ -53189,22 +53043,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerCollider: {fileID: 2376863926901478084}
---- !u!114 &8156695167477406205
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1246736508366327566}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7f914949797fc0140823cba2431b8bcc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerAtm: {fileID: 8156695167477406203}
-  enemyAtm: {fileID: 7091682562161929481}
-  stop: {fileID: 0}
-  seeMe: {fileID: 5206819284941691239}
 --- !u!114 &8156695167477406206
 MonoBehaviour:
   m_ObjectHideFlags: 0

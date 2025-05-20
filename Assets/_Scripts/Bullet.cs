@@ -29,20 +29,18 @@ public class Bullet : MonoBehaviour
     }
     public void OnCollisionEnter2D(Collision2D collision)
     {
-        Destroy(gameObject);
-        if (collision.gameObject.name.Contains("Square"))
+        
+        //collision.gameObject.GetComponent<AttributesManager>().health -= 25;
+            if (collision.gameObject.name.Contains("FreakySquare"))
             {
-                //Destroy(collision.gameObject);
                 collision.gameObject.GetComponent<AttributesManager>().health -= 25;
-                //am.TakeDamage(collision.gameObject.name, 2);
-                    
-                //am.TakeDamage("Square", 25);
+                
             } else if (collision.gameObject.name.Contains("FreakyBoss"))
             {
                collision.gameObject.GetComponent<AttributesManager>().health -= 25;
-            }
-        
-            
+               
+            }   
+        Destroy(gameObject);
         
     }
 }
