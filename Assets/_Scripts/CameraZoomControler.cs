@@ -28,7 +28,7 @@ public class CameraZoomControler : MonoBehaviour
         ogPos = gameObject.transform.position;
         newPos = new Vector3(-10000,0,0);
         canRespawn = false;
-        score.transform.position = new Vector3(200,0,0);
+        score.transform.position = new Vector3((float)350,(float)500,0);
         //score.transform.position = new Vector3(-93,164,0);
     }
 
@@ -48,7 +48,7 @@ public class CameraZoomControler : MonoBehaviour
 			{
 				PlayerCamera.GetComponent<Camera>().orthographicSize = Mathf.Lerp(sizeNorm, sizeChanged, Time.deltaTime); // Max size
                 gameObject.transform.position = newPos;
-                score.transform.position = new Vector3(100,0,0);
+                score.transform.position = new Vector3((float)350,(float)500,0);
                 //Destroy(gameObject);
                 StartCoroutine(respawn());
 			}
@@ -56,7 +56,7 @@ public class CameraZoomControler : MonoBehaviour
 			{
 				PlayerCamera.GetComponent<Camera>().orthographicSize = Mathf.Lerp(sizeChanged, sizeNorm, Time.deltaTime); // Min size 
                 gameObject.transform.position = newPos;
-                score.transform.position = new Vector3(200,0,0);
+                score.transform.position = new Vector3((float)430,(float)410,0);
                 //Destroy(gameObject);
                 StartCoroutine(respawn());
 			}

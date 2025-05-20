@@ -38,7 +38,6 @@ public class Bullet : MonoBehaviour
             } else if (collision.gameObject.name.Contains("FreakyBoss"))
             {
                collision.gameObject.GetComponent<AttributesManager>().health -= 25;
-               
             }   
         Destroy(gameObject);
         
