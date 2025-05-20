@@ -33,7 +33,7 @@ public class AttributesManager : MonoBehaviour
 
     [SerializeField] public UnityEvent OnDeathEvent;
 
-    public bool freakyBossDead;
+    public bool canTickDamage;
 
     [SerializeField] TextMeshProUGUI coinCounter;
     
@@ -48,7 +48,6 @@ public class AttributesManager : MonoBehaviour
 
                 Debug.Log(" and is now" + health);
             */
-            
         }
     }
     
@@ -56,9 +55,8 @@ public class AttributesManager : MonoBehaviour
 
     public void HandleCollision(Collision2D collision)
     {
-        if (collision.gameObject.name.Contains("Player"))
-            collision.gameObject.GetComponent<AttributesManager>().health -= 25;
-        }
+        
+    }
     
 
     public IEnumerator FlashRed()
@@ -92,11 +90,12 @@ public class AttributesManager : MonoBehaviour
         pm = GetComponent<PlayerMovement>();
         SpriteRenderer = GetComponent<SpriteRenderer>();
 
-        health = 100;
-        freakyBossDead = false;
         if (gameObject.name.Contains("FreakyBoss")){
             health = 500;
-        } 
+        } else {
+            health = 100;
+        }
+        canTickDamage = true;
     }
     
 
@@ -127,21 +126,19 @@ public class AttributesManager : MonoBehaviour
                 SceneManager.LoadScene(SceneManager.GetActiveScene().name);
             }
         } else if (gameObject.name.Contains("Square")){
+            Debug.Log(health);
             if (health <= 0){
                 Destroy(gameObject);
             }
             
         } else if (gameObject.name.Contains("Sonic")){
+            
             if (health <= 0){
                 Destroy(gameObject);
             }
             
         } else if (gameObject.name.Contains("FreakyBoss")){
             if (health <= 0){
-                //freakyBossDead = true;
-                if (OnDeathEvent != null){
-                    OnDeathEvent.Invoke();
-                }
                 SceneManager.LoadScene(5, LoadSceneMode.Single);
                 Destroy(gameObject);
             }
@@ -151,10 +148,28 @@ public class AttributesManager : MonoBehaviour
         
     }
     
+    /*
     void OnCollisionEnter2D(Collision2D collision)
     {
         isColliding = true;
-        HandleCollision(collision);
+        if (collision.gameObject.name.Contains("Player")){
+            collision.gameObject.GetComponent<AttributesManager>().health -= 25;
+        }
+            
+    }
+    */
+    void OnCollisionStay2D(Collision2D collision)
+    {
+        if (collision.gameObject.name.Contains("Player") && canTickDamage == true){
+            collision.gameObject.GetComponent<AttributesManager>().health -= 25;
+            StartCoroutine(tickDamage());
+        }
+    }
+
+    IEnumerator tickDamage(){
+        canTickDamage = false;
+        yield return new WaitForSeconds(.5f);
+        canTickDamage = true;
     }
 
     private void OnCollisionExit2D(Collision2D other)

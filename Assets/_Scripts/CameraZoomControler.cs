@@ -1,6 +1,13 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
+using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Rendering.Universal;
+using UnityEngine.SceneManagement;
+using UnityEngine.Events;
 
 public class CameraZoomControler : MonoBehaviour
 {
@@ -8,6 +15,7 @@ public class CameraZoomControler : MonoBehaviour
     int sizeChanged = 12;
     [SerializeField] int cameraMode = 1;
     [SerializeField] GameObject PlayerCamera;
+    [SerializeField] TextMeshProUGUI score;
 
     private Vector3 ogPos;
     private Vector3 newPos;
@@ -20,6 +28,8 @@ public class CameraZoomControler : MonoBehaviour
         ogPos = gameObject.transform.position;
         newPos = new Vector3(-10000,0,0);
         canRespawn = false;
+        score.transform.position = new Vector3(200,0,0);
+        //score.transform.position = new Vector3(-93,164,0);
     }
 
     // Update is called once per frame
@@ -38,6 +48,7 @@ public class CameraZoomControler : MonoBehaviour
 			{
 				PlayerCamera.GetComponent<Camera>().orthographicSize = Mathf.Lerp(sizeNorm, sizeChanged, Time.deltaTime); // Max size
                 gameObject.transform.position = newPos;
+                score.transform.position = new Vector3(100,0,0);
                 //Destroy(gameObject);
                 StartCoroutine(respawn());
 			}
@@ -45,6 +56,7 @@ public class CameraZoomControler : MonoBehaviour
 			{
 				PlayerCamera.GetComponent<Camera>().orthographicSize = Mathf.Lerp(sizeChanged, sizeNorm, Time.deltaTime); // Min size 
                 gameObject.transform.position = newPos;
+                score.transform.position = new Vector3(200,0,0);
                 //Destroy(gameObject);
                 StartCoroutine(respawn());
 			}

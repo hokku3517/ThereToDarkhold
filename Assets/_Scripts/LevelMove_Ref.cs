@@ -15,12 +15,6 @@ public class LevelMove_Ref : MonoBehaviour
 
     }
     void Update(){
-        Debug.Log(am.freakyBossDead);
-        if (!am.freakyBossDead){
-            gameObject.GetComponent<BoxCollider2D>().enabled = false;
-        } else if (am.freakyBossDead){
-            gameObject.GetComponent<BoxCollider2D>().enabled = true;
-        }
     }
     
     private void OnTriggerEnter2D(Collider2D other)
