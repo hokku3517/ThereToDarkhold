@@ -7,6 +7,8 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Rendering.Universal;
 using UnityEngine.SceneManagement;
+using UnityEngine.Events;
+
 
 public class AttributesManager : MonoBehaviour
 {
@@ -28,6 +30,8 @@ public class AttributesManager : MonoBehaviour
     private PlayerMovement pm;
     private SpriteRenderer SpriteRenderer;
     public int damageCounter = 0;
+
+    [SerializeField] public UnityEvent OnDeathEvent;
 
     public bool freakyBossDead;
 
@@ -52,25 +56,8 @@ public class AttributesManager : MonoBehaviour
 
     public void HandleCollision(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Enemy"))
-            if (pm.isDashing)
-            {
-                if (damageCounter < 3 && collision.gameObject.name.Contains("Sonic"))
-                {
-                    damageCounter++;
-                } else if (!collision.gameObject.name.Contains("Sonic"))
-                {
-                    //Destroy(collision.gameObject);
-                } else if (damageCounter >= 3 && collision.gameObject.name.Contains("Sonic"))
-                {
-                    //Destroy(collision.gameObject);
-                }
-            }
-            else
-            {
-                //health -= autoAmount;
-                StartCoroutine(FlashRed());
-            }
+        if (collision.gameObject.name.Contains("Player"))
+            collision.gameObject.GetComponent<AttributesManager>().health -= 25;
         }
     
 
@@ -151,8 +138,11 @@ public class AttributesManager : MonoBehaviour
             
         } else if (gameObject.name.Contains("FreakyBoss")){
             if (health <= 0){
-                freakyBossDead = true;
-                SceneManager.LoadScene(sceneBuldIndex, LoadSceneMode.Single);
+                //freakyBossDead = true;
+                if (OnDeathEvent != null){
+                    OnDeathEvent.Invoke();
+                }
+                SceneManager.LoadScene(5, LoadSceneMode.Single);
                 Destroy(gameObject);
             }
             

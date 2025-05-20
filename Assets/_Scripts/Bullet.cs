@@ -34,8 +34,7 @@ public class Bullet : MonoBehaviour
             {
                 //Destroy(collision.gameObject);
                 collision.gameObject.GetComponent<AttributesManager>().health -= 25;
-                //am.TakeDamage(collision.gameObject.name, 2);s
-                    
+                //am.TakeDamage(collision.gameObject.name, 2);
                     
                 //am.TakeDamage("Square", 25);
             } else if (collision.gameObject.name.Contains("FreakyBoss"))
