@@ -427,6 +427,10 @@ PrefabInstance:
       propertyPath: Name
       value: 
       objectReference: {fileID: 356585638}
+    - target: {fileID: 2238012596722914609, guid: d612cae53c9d63e4a8ffc2598f170e68, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2679109735738163463, guid: d612cae53c9d63e4a8ffc2598f170e68, type: 3}
       propertyPath: m_Name
       value: Coin (6)
@@ -866,7 +870,7 @@ MonoBehaviour:
   OnDeathEvent:
     m_PersistentCalls:
       m_Calls: []
-  freakyBossDead: 0
+  canTickDamage: 0
   coinCounter: {fileID: 589843955}
 --- !u!114 &356585639
 MonoBehaviour:
@@ -1377,6 +1381,10 @@ PrefabInstance:
       propertyPath: Name
       value: 
       objectReference: {fileID: 356585638}
+    - target: {fileID: 2238012596722914609, guid: d612cae53c9d63e4a8ffc2598f170e68, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2679109735738163463, guid: d612cae53c9d63e4a8ffc2598f170e68, type: 3}
       propertyPath: m_Name
       value: Coin (4)
@@ -1438,6 +1446,10 @@ PrefabInstance:
       propertyPath: Name
       value: 
       objectReference: {fileID: 356585638}
+    - target: {fileID: 2238012596722914609, guid: d612cae53c9d63e4a8ffc2598f170e68, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2679109735738163463, guid: d612cae53c9d63e4a8ffc2598f170e68, type: 3}
       propertyPath: m_Name
       value: Coin
@@ -1521,8 +1533,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -415.9, y: -230.5}
-  m_SizeDelta: {x: 24.0189, y: 2.0708}
+  m_AnchoredPosition: {x: -553.9, y: -252.4}
+  m_SizeDelta: {x: 24.0189, y: 1.6173}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &410303036
 MonoBehaviour:
@@ -2700,6 +2712,10 @@ PrefabInstance:
       propertyPath: Name
       value: 
       objectReference: {fileID: 356585638}
+    - target: {fileID: 2238012596722914609, guid: d612cae53c9d63e4a8ffc2598f170e68, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2679109735738163463, guid: d612cae53c9d63e4a8ffc2598f170e68, type: 3}
       propertyPath: m_Name
       value: Coin (2)
@@ -2981,6 +2997,10 @@ PrefabInstance:
       propertyPath: Name
       value: 
       objectReference: {fileID: 356585638}
+    - target: {fileID: 2238012596722914609, guid: d612cae53c9d63e4a8ffc2598f170e68, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2679109735738163463, guid: d612cae53c9d63e4a8ffc2598f170e68, type: 3}
       propertyPath: m_Name
       value: Coin (1)
@@ -3527,6 +3547,10 @@ PrefabInstance:
       propertyPath: Name
       value: 
       objectReference: {fileID: 356585638}
+    - target: {fileID: 2238012596722914609, guid: d612cae53c9d63e4a8ffc2598f170e68, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2679109735738163463, guid: d612cae53c9d63e4a8ffc2598f170e68, type: 3}
       propertyPath: m_Name
       value: Coin (5)
@@ -3645,6 +3669,10 @@ PrefabInstance:
       propertyPath: Name
       value: 
       objectReference: {fileID: 356585638}
+    - target: {fileID: 2238012596722914609, guid: d612cae53c9d63e4a8ffc2598f170e68, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2679109735738163463, guid: d612cae53c9d63e4a8ffc2598f170e68, type: 3}
       propertyPath: m_Name
       value: Coin (3)
@@ -3861,6 +3889,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraMode: 2
   PlayerCamera: {fileID: 590643066}
+  score: {fileID: 0}
 --- !u!114 &1365333234
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4168,142 +4197,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b22046f6647ff954790779ff2eb1f38c, type: 3}
---- !u!1 &1413273077
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1413273078}
-  - component: {fileID: 1413273080}
-  - component: {fileID: 1413273079}
-  m_Layer: 5
-  m_Name: Can Fight Enemies
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1413273078
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1413273077}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1686004560}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -553.48, y: -252.5481}
-  m_SizeDelta: {x: 24.0189, y: 2.0708}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1413273079
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1413273077}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: 'Dash through enemies to kill them
-
-'
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 1bb8301e0e3eb27448571c5da860b524, type: 2}
-  m_sharedMaterial: {fileID: -4027511345413154003, guid: 1bb8301e0e3eb27448571c5da860b524, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 1
-  m_fontSizeBase: 1
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 8.541103, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &1413273080
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1413273077}
-  m_CullTransparentMesh: 1
 --- !u!1 &1431062663
 GameObject:
   m_ObjectHideFlags: 0
@@ -4726,7 +4619,6 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1413273078}
   - {fileID: 410303035}
   - {fileID: 1397864179}
   - {fileID: 438239049}
@@ -5002,6 +4894,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraMode: 1
   PlayerCamera: {fileID: 590643066}
+  score: {fileID: 0}
 --- !u!1 &1793276846 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6665523887867225848, guid: 966eaa9745b48c34d97c333ff0d3a452, type: 3}
