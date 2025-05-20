@@ -834,7 +834,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraMode: 2
   PlayerCamera: {fileID: 1912697297}
-  score: {fileID: 0}
+  score: {fileID: 1205752382}
 --- !u!1 &42979239
 GameObject:
   m_ObjectHideFlags: 0
@@ -1100,7 +1100,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraMode: 2
   PlayerCamera: {fileID: 1912697297}
-  score: {fileID: 0}
+  score: {fileID: 1205752382}
 --- !u!1 &47738105
 GameObject:
   m_ObjectHideFlags: 0
@@ -1747,7 +1747,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraMode: 1
   PlayerCamera: {fileID: 1912697297}
-  score: {fileID: 0}
+  score: {fileID: 1205752382}
 --- !u!1 &82544859
 GameObject:
   m_ObjectHideFlags: 0
@@ -4948,7 +4948,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraMode: 1
   PlayerCamera: {fileID: 1912697297}
-  score: {fileID: 0}
+  score: {fileID: 1205752382}
 --- !u!1001 &201012740
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6924,7 +6924,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraMode: 1
   PlayerCamera: {fileID: 1912697297}
-  score: {fileID: 0}
+  score: {fileID: 1205752382}
 --- !u!1 &269803019 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4810614636088028898, guid: 510c25036f1f38046865f354e1fbbc33, type: 3}
@@ -7094,7 +7094,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraMode: 2
   PlayerCamera: {fileID: 1912697297}
-  score: {fileID: 0}
+  score: {fileID: 1205752382}
 --- !u!1 &282481558
 GameObject:
   m_ObjectHideFlags: 0
@@ -8437,6 +8437,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraMode: 1
   PlayerCamera: {fileID: 1912697297}
+  score: {fileID: 1205752382}
 --- !u!1001 &339967476
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8836,7 +8837,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraMode: 1
   PlayerCamera: {fileID: 1912697297}
-  score: {fileID: 0}
+  score: {fileID: 1205752382}
 --- !u!1001 &347142648
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11464,7 +11465,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraMode: 2
   PlayerCamera: {fileID: 1912697297}
-  score: {fileID: 0}
+  score: {fileID: 1205752382}
 --- !u!1 &474058601
 GameObject:
   m_ObjectHideFlags: 0
@@ -12214,7 +12215,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraMode: 1
   PlayerCamera: {fileID: 1912697297}
-  score: {fileID: 0}
+  score: {fileID: 1205752382}
 --- !u!1 &515687173
 GameObject:
   m_ObjectHideFlags: 0
@@ -12787,7 +12788,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraMode: 1
   PlayerCamera: {fileID: 1912697297}
-  score: {fileID: 0}
+  score: {fileID: 1205752382}
 --- !u!1 &540911109
 GameObject:
   m_ObjectHideFlags: 0
@@ -13053,6 +13054,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraMode: 2
   PlayerCamera: {fileID: 1912697297}
+  score: {fileID: 1205752382}
 --- !u!1001 &546808429
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15277,6 +15279,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraMode: 2
   PlayerCamera: {fileID: 1912697297}
+  score: {fileID: 1205752382}
 --- !u!1001 &625178794
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16598,7 +16601,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraMode: 1
   PlayerCamera: {fileID: 1912697297}
-  score: {fileID: 0}
+  score: {fileID: 1205752382}
 --- !u!1 &681625271
 GameObject:
   m_ObjectHideFlags: 0
@@ -18128,7 +18131,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraMode: 1
   PlayerCamera: {fileID: 1912697297}
-  score: {fileID: 0}
+  score: {fileID: 1205752382}
 --- !u!1 &740000123
 GameObject:
   m_ObjectHideFlags: 0
@@ -22459,7 +22462,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraMode: 2
   PlayerCamera: {fileID: 1912697297}
-  score: {fileID: 0}
+  score: {fileID: 1205752382}
 --- !u!1 &911782993
 GameObject:
   m_ObjectHideFlags: 0
@@ -24229,7 +24232,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraMode: 1
   PlayerCamera: {fileID: 1912697297}
-  score: {fileID: 0}
+  score: {fileID: 1205752382}
 --- !u!1 &975460346
 GameObject:
   m_ObjectHideFlags: 0
@@ -25414,6 +25417,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraMode: 2
   PlayerCamera: {fileID: 1912697297}
+  score: {fileID: 1205752382}
 --- !u!1001 &1010375271
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26522,7 +26526,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraMode: 2
   PlayerCamera: {fileID: 1912697297}
-  score: {fileID: 0}
+  score: {fileID: 1205752382}
 --- !u!1 &1064893669
 GameObject:
   m_ObjectHideFlags: 0
@@ -26788,7 +26792,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraMode: 2
   PlayerCamera: {fileID: 1912697297}
-  score: {fileID: 0}
+  score: {fileID: 1205752382}
 --- !u!1 &1071110106
 GameObject:
   m_ObjectHideFlags: 0
@@ -28305,7 +28309,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraMode: 1
   PlayerCamera: {fileID: 1912697297}
-  score: {fileID: 0}
+  score: {fileID: 1205752382}
 --- !u!1 &1123185947
 GameObject:
   m_ObjectHideFlags: 0
@@ -28744,7 +28748,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraMode: 2
   PlayerCamera: {fileID: 1912697297}
-  score: {fileID: 0}
+  score: {fileID: 1205752382}
 --- !u!1 &1143029899
 GameObject:
   m_ObjectHideFlags: 0
@@ -29386,7 +29390,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraMode: 1
   PlayerCamera: {fileID: 1912697297}
-  score: {fileID: 0}
+  score: {fileID: 1205752382}
 --- !u!1 &1158004491
 GameObject:
   m_ObjectHideFlags: 0
@@ -30892,8 +30896,8 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -30951,7 +30955,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -95, y: 170}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1223267692
@@ -32175,7 +32179,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraMode: 1
   PlayerCamera: {fileID: 1912697297}
-  score: {fileID: 0}
+  score: {fileID: 1205752382}
 --- !u!1 &1275867939
 GameObject:
   m_ObjectHideFlags: 0
@@ -32874,7 +32878,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraMode: 2
   PlayerCamera: {fileID: 1912697297}
-  score: {fileID: 0}
+  score: {fileID: 1205752382}
 --- !u!1 &1290166814
 GameObject:
   m_ObjectHideFlags: 0
@@ -35637,7 +35641,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraMode: 2
   PlayerCamera: {fileID: 1912697297}
-  score: {fileID: 0}
+  score: {fileID: 1205752382}
 --- !u!1 &1364307643
 GameObject:
   m_ObjectHideFlags: 0
@@ -36618,7 +36622,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraMode: 1
   PlayerCamera: {fileID: 1912697297}
-  score: {fileID: 0}
+  score: {fileID: 1205752382}
 --- !u!1 &1417236509
 GameObject:
   m_ObjectHideFlags: 0
@@ -37887,7 +37891,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraMode: 1
   PlayerCamera: {fileID: 1912697297}
-  score: {fileID: 0}
+  score: {fileID: 1205752382}
 --- !u!1001 &1473376337
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39529,7 +39533,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraMode: 1
   PlayerCamera: {fileID: 1912697297}
-  score: {fileID: 0}
+  score: {fileID: 1205752382}
 --- !u!1 &1572129554
 GameObject:
   m_ObjectHideFlags: 0
@@ -40860,7 +40864,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraMode: 2
   PlayerCamera: {fileID: 1912697297}
-  score: {fileID: 0}
+  score: {fileID: 1205752382}
 --- !u!1 &1596581038
 GameObject:
   m_ObjectHideFlags: 0
@@ -41274,7 +41278,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraMode: 2
   PlayerCamera: {fileID: 1912697297}
-  score: {fileID: 0}
+  score: {fileID: 1205752382}
 --- !u!1 &1618668315
 GameObject:
   m_ObjectHideFlags: 0
@@ -41799,7 +41803,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraMode: 2
   PlayerCamera: {fileID: 1912697297}
-  score: {fileID: 0}
+  score: {fileID: 1205752382}
 --- !u!1 &1626834041
 GameObject:
   m_ObjectHideFlags: 0
@@ -42191,7 +42195,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraMode: 2
   PlayerCamera: {fileID: 1912697297}
-  score: {fileID: 0}
+  score: {fileID: 1205752382}
 --- !u!1001 &1647258300
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -45763,6 +45767,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraMode: 2
   PlayerCamera: {fileID: 1912697297}
+  score: {fileID: 1205752382}
 --- !u!1001 &1760251713
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -48537,7 +48542,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraMode: 2
   PlayerCamera: {fileID: 1912697297}
-  score: {fileID: 0}
+  score: {fileID: 1205752382}
 --- !u!1 &1827150267
 GameObject:
   m_ObjectHideFlags: 0
@@ -48908,7 +48913,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraMode: 1
   PlayerCamera: {fileID: 1912697297}
-  score: {fileID: 0}
+  score: {fileID: 1205752382}
 --- !u!1001 &1830604292
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -51388,6 +51393,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraMode: 1
   PlayerCamera: {fileID: 1912697297}
+  score: {fileID: 1205752382}
 --- !u!1001 &1918924112
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -53653,7 +53659,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraMode: 2
   PlayerCamera: {fileID: 1912697297}
-  score: {fileID: 0}
+  score: {fileID: 1205752382}
 --- !u!1001 &1992351706
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -54317,7 +54323,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraMode: 1
   PlayerCamera: {fileID: 1912697297}
-  score: {fileID: 0}
+  score: {fileID: 1205752382}
 --- !u!1 &2035007881
 GameObject:
   m_ObjectHideFlags: 0
@@ -56601,7 +56607,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraMode: 2
   PlayerCamera: {fileID: 1912697297}
-  score: {fileID: 0}
+  score: {fileID: 1205752382}
 --- !u!1001 &2117707669
 PrefabInstance:
   m_ObjectHideFlags: 0
