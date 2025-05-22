@@ -14,6 +14,9 @@ public class Gun : MonoBehaviour
     [SerializeField] private Rigidbody2D BulletRigidbody;
 
     [SerializeField] private GameObject Barrel;
+
+    [SerializeField] private AudioSource audio;
+
     private float fireRate;
 
     private float mouseX;
@@ -73,6 +76,7 @@ public class Gun : MonoBehaviour
             
     }
     IEnumerator Shooting(){
+            audio.Play(0);
             instance = Instantiate(Bullet, Barrel.transform.position, Quaternion.identity);
             Vector3 dir = Quaternion.AngleAxis(angle, Vector3.forward) * Vector3.right;
             instance.GetComponent<Rigidbody2D>().AddForce(dir * bulletSpeed);
