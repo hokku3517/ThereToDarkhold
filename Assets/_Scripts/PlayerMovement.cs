@@ -56,6 +56,8 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private GameObject dash3;
     [SerializeField] private GameObject dash4;
     [SerializeField] private GameObject dash5;
+    
+    
 
     private SpriteRenderer SpriteRenderer;
 
